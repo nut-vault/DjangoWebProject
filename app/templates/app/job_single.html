@@ -1,0 +1,948 @@
+﻿<!DOCTYPE html>
+<!-- Template Name: JB desksVersion: 1.0.0Author: Webstrot-->
+<!--[if IE 8]><html lang="en" class="ie8 no-js"><![endif]-->
+<!--[if IE 9]><html lang="en" class="ie9 no-js"><![endif]-->
+<!--[if !IE]><!-->
+
+<html lang="zxx" xmlns="http://www.w3.org/1999/xhtml">
+<!--[endif]-->
+<head>
+    <meta charset="utf-8" />
+    <title>Home</title>
+    {% load staticfiles %}
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta name="description" content="JB desks,job portal,job" />
+    <meta name="keywords" content="JB desks,job portal,job" />
+    <!--Template style -->
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/animate.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/bootstrap.min.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/fonts.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/flaticon.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/font-awesome.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/owl.carousel.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/owl.theme.default.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/dropify.min.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/jquery-ui.min.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/magnific-popup.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/nice-select.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/reset.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/style.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/responsive.css'%}" />
+</head>
+<body>
+    <!-- preloader Start -->
+    <!-- preloader Start -->
+    <div class="jb_preloader">
+        <div class="spinner_wrap">
+            <div class="spinner"></div>
+        </div>
+    </div>
+    <div class="cursor"></div>
+    <!-- Top Scroll Start -->
+    <a href="javascript:" id="return-to-top"><i class="fas fa-angle-double-up"></i></a>
+    <!-- Top Scroll End -->
+    <!-- cp navi wrapper Start -->
+    <nav class="cd-dropdown  d-block d-sm-block d-md-block d-lg-none d-xl-none">
+        <h2><a href="main.html"><span><img src="picture/logo.png" alt="img" /></span></a></h2>
+        <a href="#0" class="cd-close">Close</a>
+        <ul class="cd-dropdown-content">
+            <li>
+                <form class="cd-search">
+                    <input type="search" placeholder="Search..." />
+                </form>
+            </li>
+            <li class="has-children">
+                <a href="#">home</a>
+                <ul class="cd-secondary-dropdown icon_menu is-hidden">
+                    <li class="go-back"><a href="#0">Menu</a></li>
+                    <li><a href="main.html">home I</a></li>
+                    <li><a href="index_II.html">home II</a></li>
+                    <li><a href="index_III.html">home III</a></li>
+                </ul>
+            </li>
+            <li class="has-children">
+                <a href="#">jobs</a>
+                <ul class="cd-secondary-dropdown icon_menu is-hidden">
+                    <li class="go-back"><a href="#0">Menu</a></li>
+                    <li><a href="job_listing_grid_left_filter.html">job listing grid </a></li>
+                    <li><a href="job_listing_list_left_filter.html">job listing list</a></li>
+                    <li><a href="job_single.html">job single</a></li>
+                </ul>
+            </li>
+            <!-- .has-children -->
+            <li class="has-children">
+                <a href="#">pages</a>
+                <ul class="cd-secondary-dropdown icon_menu is-hidden">
+                    <li class="go-back"><a href="#0">Menu</a></li>
+                    <li><a href="about_us.html">about us</a></li>
+                    <li><a href="companies.html">companies</a></li>
+                    <li><a href="company_single.html">company single</a></li>
+                    <li><a href="error_page.html">error page</a></li>
+                    <li><a href="login.html">login</a></li>
+                    <li><a href="pricing_table.html">pricing table</a></li>
+                    <li><a href="sign_up.html">sign up</a></li>
+                </ul>
+            </li>
+            <li class="has-children">
+                <a href="#">dashboard</a>
+                <ul class="cd-secondary-dropdown is-hidden">
+                    <li class="go-back"><a href="#0">Menu</a></li>
+                    <li class="has-children">
+                        <a href="#">candidate</a>
+                        <ul class="cd-secondary-dropdown is-hidden">
+                            <li class="go-back"><a href="#0">Menu</a></li>
+                            <li><a href="dashboard/candidate_applied_job.html">applied job</a></li>
+                            <li><a href="dashboard/candidate_dashboard.html">dashboard</a></li>
+                            <li><a href="dashboard/candidate_edit_profile.html">edit profile</a></li>
+                            <li><a href="dashboard/candidate_favourite_job.html">favourite job</a></li>
+                            <li><a href="dashboard/candidate_resume.html">resume</a></li>
+                            <li><a href="dashboard/message.html">message</a></li>
+                            <li><a href="dashboard/pricing_plans.html">pricing plans</a></li>
+                        </ul>
+                        <!-- .cd-secondary-dropdown -->
+                    </li>
+                    <!-- .has-children -->
+                    <li class="has-children">
+                        <a href="#">company</a>
+                        <ul class="cd-secondary-dropdown is-hidden">
+                            <li class="go-back"><a href="#0">Menu</a></li>
+                            <li><a href="dashboard/comp_applications.html">applications</a></li>
+                            <li><a href="dashboard/comp_company_page.html">company page</a></li>
+                            <li><a href="dashboard/comp_employer_dashboard.html">dashboard</a></li>
+                            <li><a href="dashboard/comp_employer_edit_profile.html">edit profile</a></li>
+                            <li><a href="dashboard/comp_employer_manage_jobs.html">manage jobs</a></li>
+                            <li><a href="dashboard/comp_post_new_job.html">post new job</a></li>
+                            <li><a href="dashboard/message.html">message</a></li>
+                            <li><a href="dashboard/pricing_plans.html">pricing plans</a></li>
+                        </ul>
+                        <!-- .cd-secondary-dropdown -->
+                    </li>
+                </ul>
+                <!-- .cd-secondary-dropdown -->
+            </li>
+            <li class="has-children">
+                <a href="#">blog</a>
+                <ul class="cd-secondary-dropdown icon_menu is-hidden">
+                    <li class="go-back"><a href="#0">Menu</a></li>
+                    <li><a href="blog_single.html">blog single</a></li>
+                    <li><a href="blog_category_right_sidebar.html">blog category</a></li>
+                </ul>
+            </li>
+            <li><a href="contact_us.html">contact us </a></li>
+            <li><a href="login.html">login</a></li>
+        </ul>
+        <!-- .cd-dropdown-content -->
+    </nav>
+    <div class="cp_navi_main_wrapper jb_cover">
+        <div class="container-fluid">
+            <div class="cp_logo_wrapper">
+                <a href="main.html"><img src="picture/logo.png" alt="logo" /></a>
+            </div>
+            <!-- mobile menu area start -->
+            <header class="mobail_menu d-block d-sm-block d-md-block d-lg-none d-xl-none">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="cd-dropdown-wrapper">
+                                <a class="house_toggle" href="#0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewbox="0 0 31.177 31.177" style="enable-background:new 0 0 31.177 31.177;" xml:space="preserve" width="25px" height="25px">
+                                    <g>
+                                    <g>
+                                    <path class="menubar" d="M30.23,1.775H0.946c-0.489,0-0.887-0.398-0.887-0.888S0.457,0,0.946,0H30.23    c0.49,0,0.888,0.398,0.888,0.888S30.72,1.775,30.23,1.775z" fill="#004165" />
+            </g>
+                                    <g>
+                                    <path class="menubar" d="M30.23,9.126H12.069c-0.49,0-0.888-0.398-0.888-0.888c0-0.49,0.398-0.888,0.888-0.888H30.23    c0.49,0,0.888,0.397,0.888,0.888C31.118,8.729,30.72,9.126,30.23,9.126z" fill="#004165" />
+            </g>
+                                    <g>
+                                    <path class="menubar" d="M30.23,16.477H0.946c-0.489,0-0.887-0.398-0.887-0.888c0-0.49,0.398-0.888,0.887-0.888H30.23    c0.49,0,0.888,0.397,0.888,0.888C31.118,16.079,30.72,16.477,30.23,16.477z" fill="#004165" />
+            </g>
+                                    <g>
+                                    <path class="menubar" d="M30.23,23.826H12.069c-0.49,0-0.888-0.396-0.888-0.887c0-0.49,0.398-0.888,0.888-0.888H30.23    c0.49,0,0.888,0.397,0.888,0.888C31.118,23.43,30.72,23.826,30.23,23.826z" fill="#004165" />
+            </g>
+                                    <g>
+                                    <path class="menubar" d="M30.23,31.177H0.946c-0.489,0-0.887-0.396-0.887-0.887c0-0.49,0.398-0.888,0.887-0.888H30.23    c0.49,0,0.888,0.398,0.888,0.888C31.118,30.78,30.72,31.177,30.23,31.177z" fill="#004165" />
+            </g>
+           </g>
+          </svg>
+                                </a>
+                                <!-- .cd-dropdown -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- .cd-dropdown-wrapper -->
+            </header>
+            <div class="menu_btn_box header_btn jb_cover">
+                <ul>
+                    <li><a href="sign_up.html"><i class="flaticon-man-user"></i>sign up</a></li>
+                    <li><a href="login.html"><i class="flaticon-login"></i>login</a></li>
+                </ul>
+            </div>
+            <div class="jb_navigation_wrapper">
+                <div class="mainmenu d-xl-block d-lg-block d-md-none d-sm-none d-none">
+                    <ul class="main_nav_ul">
+                        <li class="has-mega gc_main_navigation">
+                            <a href="#" class="gc_main_navigation">home</a>
+                            <ul class="navi_2_dropdown">
+                                <li class="parent"><a href="main.html"><i class="fas fa-square"></i>home I</a></li>
+                                <li class="parent"><a href="index_II.html"><i class="fas fa-square"></i>home II</a></li>
+                                <li class="parent"><a href="index_III.html"><i class="fas fa-square"></i>home III</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-mega gc_main_navigation">
+                            <a href="#" class="gc_main_navigation active_class">jobs</a>
+                            <ul class="navi_2_dropdown">
+                                <li class="parent"><a href="job_listing_grid_left_filter.html"><i class="fas fa-square"></i>job listing grid</a></li>
+                                <li class="parent"><a href="job_listing_list_left_filter.html"><i class="fas fa-square"></i>job listing list</a></li>
+                                <li class="parent"><a href="job_single.html"><i class="fas fa-square"></i>job single</a></li>
+                                <li class="parent">
+                                    <a href="#"><i class="fas fa-square"></i>jobs<span><i class="fas fa-chevron-right"></i></span></a>
+                                    <ul class="dropdown-menu-right">
+                                        <li><a href="job_listing_grid_left_filter.html"><i class="fas fa-square"></i>job listing grid</a></li>
+                                        <li><a href="job_listing_list_left_filter.html"><i class="fas fa-square"></i>job listing list</a></li>
+                                        <li><a href="job_single.html"><i class="fas fa-square"></i>job single</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-mega gc_main_navigation kv_sub_menu">
+                            <a href="#" class="gc_main_navigation">candidates</a>
+                            <!-- mega menu start -->
+                            <ul class="kv_mega_menu">
+                                <li class="kv_mega_menu_width">
+                                    <div class="container">
+                                        <div class="jn_menu_partion_div">
+                                            <div class="candidate_width">
+                                                <div class="jen_tabs_conent_list jb_cover">
+                                                    <h1>job skills</h1>
+                                                    <ul>
+                                                        <li><a href="#"><i class="fas fa-square"></i>HTML5 &amp; CSS3</a></li>
+                                                        <li><a href="#"><i class="fas fa-square"></i>wordpress</a></li>
+                                                        <li><a href="#"><i class="fas fa-square"></i>javascript</a></li>
+                                                        <li><a href="#"><i class="fas fa-square"></i>photoshop</a></li>
+                                                        <li><a href="#"><i class="fas fa-square"></i>designer</a></li>
+                                                        <li><a href="#"><i class="fas fa-square"></i>construction</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="candidate_width">
+                                                <div class="jen_tabs_conent_list jb_cover">
+                                                    <h1>categories</h1>
+                                                    <ul>
+                                                        <li><a href="#"><i class="fas fa-square"></i>graphic design</a></li>
+                                                        <li><a href="#"><i class="fas fa-square"></i>engineering jobs</a></li>
+                                                        <li><a href="#"><i class="fas fa-square"></i>mainframe jobs</a></li>
+                                                        <li><a href="#"><i class="fas fa-square"></i>PSU jobs</a></li>
+                                                        <li><a href="#"><i class="fas fa-square"></i>goverment jobs</a></li>
+                                                        <li><a href="#"><i class="fas fa-square"></i>IT company</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="candidate_width">
+                                                <div class="jen_tabs_conent_list   jb_cover">
+                                                    <h1>job location</h1>
+                                                    <ul>
+                                                        <li><a href="#"><i class="fas fa-square"></i>india</a></li>
+                                                        <li><a href="#"><i class="fas fa-square"></i>united state</a></li>
+                                                        <li><a href="#"><i class="fas fa-square"></i>japan</a></li>
+                                                        <li><a href="#"><i class="fas fa-square"></i>dubai</a></li>
+                                                        <li><a href="#"><i class="fas fa-square"></i>south africa</a></li>
+                                                        <li><a href="#"><i class="fas fa-square"></i>china</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="candidate_width">
+                                                <div class="jen_tabs_conent_list   jb_cover">
+                                                    <h1>open jobs</h1>
+                                                    <div class="open_jobs_wrapper">
+                                                        <div class="open_jobs_wrapper_1 jb_cover">
+                                                            <img src="picture/job1.jpg" alt="img" />
+                                                            <div class="open_job_text">
+                                                                <h3><a href="#">Some designers inelevated the..</a></h3>
+                                                                <p>5 hour ago</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="open_jobs_wrapper_1 jb_cover">
+                                                            <img src="picture/job1.jpg" alt="img" />
+                                                            <div class="open_job_text">
+                                                                <h3><a href="#">Some designers inelevated the..</a></h3>
+                                                                <p>12 hour ago</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="view_all_job jb_cover">
+                                                            <a href="#">view all jobs</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-mega gc_main_navigation">
+                            <a href="#" class="gc_main_navigation">pages</a>
+                            <ul class="navi_2_dropdown">
+                                <li class="parent"><a href="about_us.html"><i class="fas fa-square"></i>about us</a></li>
+                                <li class="parent"><a href="companies.html"><i class="fas fa-square"></i>companies</a></li>
+                                <li class="parent"><a href="company_single.html"><i class="fas fa-square"></i>company single</a></li>
+                                <li class="parent"><a href="error_page.html"><i class="fas fa-square"></i>error page</a></li>
+                                <li class="parent"><a href="login.html"><i class="fas fa-square"></i>login</a></li>
+                                <li class="parent"><a href="pricing_table.html"><i class="fas fa-square"></i>pricing table</a></li>
+                                <li class="parent"><a href="sign_up.html"><i class="fas fa-square"></i>sign_up</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-mega gc_main_navigation">
+                            <a href="#" class="gc_main_navigation">dashboard</a>
+                            <ul class="navi_2_dropdown">
+                                <li class="parent">
+                                    <a href="#"><i class="fas fa-square"></i>candidate<span><i class="fas fa-chevron-right"></i></span></a>
+                                    <ul class="dropdown-menu-right">
+                                        <li><a href="dashboard/candidate_applied_job.html"><i class="fas fa-square"></i>applied job</a></li>
+                                        <li><a href="dashboard/candidate_dashboard.html"><i class="fas fa-square"></i>dashboard</a></li>
+                                        <li><a href="dashboard/candidate_edit_profile.html"><i class="fas fa-square"></i>edit profile</a></li>
+                                        <li><a href="dashboard/candidate_favourite_job.html"><i class="fas fa-square"></i>favourite job</a></li>
+                                        <li><a href="dashboard/candidate_resume.html"><i class="fas fa-square"></i>resume</a></li>
+                                        <li><a href="dashboard/message.html"><i class="fas fa-square"></i>message</a></li>
+                                        <li><a href="dashboard/pricing_plans.html"><i class="fas fa-square"></i>pricing plans</a></li>
+                                    </ul>
+                                </li>
+                                <li class="parent">
+                                    <a href="#"><i class="fas fa-square"></i>company<span><i class="fas fa-chevron-right"></i></span></a>
+                                    <ul class="dropdown-menu-right">
+                                        <li><a href="dashboard/comp_applications.html"><i class="fas fa-square"></i>applications</a></li>
+                                        <li><a href="dashboard/comp_company_page.html"><i class="fas fa-square"></i>company page</a></li>
+                                        <li><a href="dashboard/comp_employer_dashboard.html"><i class="fas fa-square"></i>dashboard</a></li>
+                                        <li><a href="dashboard/comp_employer_edit_profile.html"><i class="fas fa-square"></i>edit profile</a></li>
+                                        <li><a href="dashboard/comp_employer_manage_jobs.html"><i class="fas fa-square"></i>manage jobs</a></li>
+                                        <li><a href="dashboard/comp_post_new_job.html"><i class="fas fa-square"></i>post new job</a></li>
+                                        <li><a href="dashboard/message.html"><i class="fas fa-square"></i>message</a></li>
+                                        <li><a href="dashboard/pricing_plans.html"><i class="fas fa-square"></i>pricing plans</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-mega gc_main_navigation">
+                            <a href="#" class="gc_main_navigation">blog</a>
+                            <ul class="navi_2_dropdown">
+                                <li class="parent"><a href="blog_single.html"><i class="fas fa-square"></i>blog single</a></li>
+                                <li class="parent"><a href="blog_category_right_sidebar.html"><i class="fas fa-square"></i>blog category</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact_us.html" class="gc_main_navigation">contact</a></li>
+                    </ul>
+                </div>
+                <!-- mainmenu end -->
+                <div class="jb_search_btn_wrapper d-none d-sm-none d-md-none d-lg-block d-xl-block">
+                    <!-- extra nav -->
+                    <div class="extra-nav">
+                        <div class="extra-cell">
+                            <button id="quik-search-btn" type="button" class="site-button radius-xl"><i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+                    <!-- Quik search -->
+                    <div class="dez-quik-search bg-primary-dark">
+                        <form action="#">
+                            <input name="search" value="" type="text" class="form-control" placeholder="Type to search..." />
+                            <span id="quik-search-remove"><i class="fas fa-times"></i></span>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- navi wrapper End -->
+    <!-- top header wrapper start -->
+    <div class="page_title_section">
+        <div class="page_header">
+            <div class="container">
+                <div class="row">
+                    <!-- section_heading start -->
+                    <div class="col-lg-9 col-md-9 col-12 col-sm-8">
+                        <h1>job single</h1>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-12 col-sm-4">
+                        <div class="sub_title_section">
+                            <ul class="sub_title">
+                                <li><a href="#">Home </a>&nbsp; / &nbsp;</li>
+                                <li>job single</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- top header wrapper end -->
+    <!--job single wrapper start-->
+    <div class="job_single_wrapper jb_cover">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div class="job_filter_category_sidebar jb_cover">
+                        <div class="job_filter_sidebar_heading jb_cover">
+                            <h1>jobs overview</h1>
+                        </div>
+                        <div class="job_overview_header jb_cover">
+                            <div class="jb_job_overview_img">
+                                <img src="picture/overview.png" alt="post_img" />
+                                <h4>HTML Developer (1 - 2 Yrs Exp.)</h4>
+                                <p>Webstrot Technology Pvt. Ltd.</p>
+                                <ul class="job_single_lists">
+                                    <li>
+                                        <div class="job_adds_right">
+                                            <a href="#!"><i class="far fa-heart"></i></a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="header_btn search_btn part_time_btn jb_cover">
+                                            <a href="#">part time</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="jp_listing_overview_list_main_wrapper jb_cover">
+                                <div class="jp_listing_list_icon">
+                                    <i class="far fa-calendar"></i>
+                                </div>
+                                <div class="jp_listing_list_icon_cont_wrapper">
+                                    <ul>
+                                        <li>Date Posted:</li>
+                                        <li>Octomber 02, 2019</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="jp_listing_overview_list_main_wrapper jb_cover">
+                                <div class="jp_listing_list_icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="jp_listing_list_icon_cont_wrapper">
+                                    <ul>
+                                        <li>Location:</li>
+                                        <li>Los Angeles Califonia PO, 455001</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="jp_listing_overview_list_main_wrapper jb_cover">
+                                <div class="jp_listing_list_icon">
+                                    <i class="fa fa-info-circle"></i>
+                                </div>
+                                <div class="jp_listing_list_icon_cont_wrapper">
+                                    <ul>
+                                        <li>Job Title:</li>
+                                        <li>HTML Developer</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="jp_listing_overview_list_main_wrapper jb_cover">
+                                <div class="jp_listing_list_icon">
+                                    <i class="far fa-clock"></i>
+                                </div>
+                                <div class="jp_listing_list_icon_cont_wrapper">
+                                    <ul>
+                                        <li>Hours:</li>
+                                        <li>40h / Week</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="jp_listing_overview_list_main_wrapper jb_cover">
+                                <div class="jp_listing_list_icon">
+                                    <i class="far fa-money-bill-alt"></i>
+                                </div>
+                                <div class="jp_listing_list_icon_cont_wrapper">
+                                    <ul>
+                                        <li>Salary:</li>
+                                        <li>$12K - 15k P.A.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="jp_listing_overview_list_main_wrapper jb_cover">
+                                <div class="jp_listing_list_icon">
+                                    <i class="fa fa-th-large"></i>
+                                </div>
+                                <div class="jp_listing_list_icon_cont_wrapper">
+                                    <ul>
+                                        <li>Category:</li>
+                                        <li>Developer</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="jp_listing_overview_list_main_wrapper jb_cover">
+                                <div class="jp_listing_list_icon">
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <div class="jp_listing_list_icon_cont_wrapper">
+                                    <ul>
+                                        <li>Experience:</li>
+                                        <li>1+ Years Experience</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="header_btn search_btn news_btn overview_btn  jb_cover">
+                                <a href="#" data-toggle="modal" data-target="#myModal41">apply now !</a>
+                            </div>
+                            <div class="modal fade apply_job_popup" id="myModal41" role="dialog">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <div class="row">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                <div class="apply_job jb_cover">
+                                                    <h1>apply for this job :</h1>
+                                                    <div class="search_alert_box jb_cover">
+                                                        <div class="apply_job_form">
+                                                            <input type="text" name="name" placeholder="full name" />
+                                                        </div>
+                                                        <div class="apply_job_form">
+                                                            <input type="text" name="Email" placeholder="Enter Your Email" />
+                                                        </div>
+                                                        <div class="apply_job_form">
+                                                            <textarea class="form-control" name="message" placeholder="Message"></textarea>
+                                                        </div>
+                                                        <div class="resume_optional jb_cover">
+                                                            <p>resume (optional)</p>
+                                                            <div class="width_50">
+                                                                <input type="file" id="input-file-now-custom-27" class="dropify" data-height="90" />
+                                                                <span class="post_photo">upload resume</span>
+                                                            </div>
+                                                            <p class="word_file">microsoft word or pdf file only (5mb)</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="header_btn search_btn applt_pop_btn jb_cover">
+                                                        <a href="#">apply now</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="jb_keyword_key_wrapper jb_cover">
+                            <ul>
+                                <li><i class="fa fa-tags"></i>trending Keywords :</li>
+                                <li><a href="#">ui designer,</a></li>
+                                <li><a href="#">developer,</a></li>
+                                <li><a href="#">senior</a></li>
+                                <li><a href="#">it company,</a></li>
+                                <li><a href="#">design,</a></li>
+                                <li><a href="#">call center</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12 col-sm-12 col-12">
+                    <div class="jb_listing_single_overview jb_cover">
+                        <div class="jp_job_des jb_cover">
+                            <h2 class="job_description_heading">Job Description</h2>
+                            <p>Google is and always will be an engineering company. We hire people with a broad set of ical skills who are ready to tackle some of technology's greatest challenges and make an impact on millions, if not billions, of users. At Google, engineers not only revolutionize search, they routinely work on massive scalability and storage solutions, large-scale applications and rely new platforms for developers around the world. From AdWords to Chrome, Android to Ye, Social to Local, Google engineers are changing the world.</p>
+                            <ul>
+                                <li><i class="fas fa-globe-asia"></i>&nbsp;&nbsp; <a href="#">www.example.com</a></li>
+                                <li><i class="fas fa-file-download"></i>&nbsp;&nbsp; <a href="#">Download Info</a></li>
+                            </ul>
+                        </div>
+                        <div class="jp_job_res jb_cover">
+                            <h2 class="job_description_heading">Responsibilities</h2>
+                            <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur aliquet quam id dui posuere blandit.</p>
+                            <ul>
+                                <li><i class="fa fa-caret-right"></i>&nbsp;&nbsp; Build next-generation web applications with a focus on the client side.</li>
+                                <li><i class="fa fa-caret-right"></i>&nbsp;&nbsp; Redesign UI's, implement new UI's, and pick up Java as necessary.</li>
+                                <li><i class="fa fa-caret-right"></i>&nbsp;&nbsp; Explore and design dynamic and compelling consumer experiences.</li>
+                                <li><i class="fa fa-caret-right"></i>&nbsp;&nbsp; Design and build scalable framework for web applications.</li>
+                            </ul>
+                        </div>
+                        <div class="jp_job_res jb_cover minimum_cover">
+                            <h2 class="job_description_heading">Minimum qualifications</h2>
+                            <ul>
+                                <li><i class="fa fa-caret-right"></i>&nbsp;&nbsp; Build next-generation web applications with a focus on the client side.</li>
+                                <li><i class="fa fa-caret-right"></i>&nbsp;&nbsp; Redesign UI's, implement new UI's, and pick up Java as necessary.</li>
+                                <li><i class="fa fa-caret-right"></i>&nbsp;&nbsp; Explore and design dynamic and compelling consumer experiences.</li>
+                                <li><i class="fa fa-caret-right"></i>&nbsp;&nbsp; Design and build scalable framework for web applications.</li>
+                            </ul>
+                        </div>
+                        <div class="jp_job_res jb_cover">
+                            <h2 class="job_description_heading">how to apply</h2>
+                            <p>Google is and always will be an engineering company. We hire people with a broad set of ical skills who are ready to tackle some of technology's greatest challenges and make an impact on millions, if not billions, of users. At Google, engineers not only revolutionize search, they routinely</p>
+                        </div>
+                        <div class="jp_job_res jb_cover">
+                            <h2 class="job_description_heading">location</h2>
+                            <div class="map_wrapper jb_cover">
+                                <div id="map"></div>
+                            </div>
+                        </div>
+                        <div class="jp_job_res jp_listing_left_wrapper jb_cover">
+                            <div class="jp_listing_left_bottom_sidebar_social_wrapper">
+                                <ul>
+                                    <li>share :</li>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="related_job_wrapper jb_cover">
+                        <h1 class="related_job">related job</h1>
+                        <div class="related_product_job jb_cover">
+                            <div class="owl-carousel owl-theme">
+                                <div class="item">
+                                    <div class="job_listing_left_fullwidth jb_cover">
+                                        <div class="row">
+                                            <div class="col-lg-9 col-md-9 col-sm-12 col-12">
+                                                <div class="jp_job_post_side_img">
+                                                    <img src="picture/lt2.png" alt="post_img" />
+                                                    <br />
+                                                    <span>google</span>
+                                                </div>
+                                                <div class="jp_job_post_right_cont">
+                                                    <h4><a href="#">Trainee Web Designer, (Fresher)</a></h4>
+                                                    <ul>
+                                                        <li><i class="flaticon-cash"></i>&nbsp; $12K - 15k P.A.</li>
+                                                        <li><i class="flaticon-location-pointer"></i>&nbsp; Los Angeles, Califonia PO, 455001</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                                                <div class="jp_job_post_right_btn_wrapper">
+                                                    <ul>
+                                                        <li>
+                                                            <div class="job_adds_right">
+                                                                <a href="#!"><i class="far fa-heart"></i></a>
+                                                            </div>
+                                                        </li>
+                                                        <li><a href="job_single.html">Part Time</a></li>
+                                                        <li><a href="#">apply</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="job_listing_left_fullwidth jb_cover">
+                                        <div class="row">
+                                            <div class="col-lg-9 col-md-9 col-sm-12 col-12">
+                                                <div class="jp_job_post_side_img">
+                                                    <img src="picture/lt1.png" alt="post_img" />
+                                                    <br />
+                                                    <span>google</span>
+                                                </div>
+                                                <div class="jp_job_post_right_cont">
+                                                    <h4><a href="#">Power Systems Experience Designer </a></h4>
+                                                    <ul>
+                                                        <li><i class="flaticon-cash"></i>&nbsp; $12K - 15k P.A.</li>
+                                                        <li><i class="flaticon-location-pointer"></i>&nbsp; Los Angeles, Califonia PO, 455001</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                                                <div class="jp_job_post_right_btn_wrapper">
+                                                    <ul>
+                                                        <li>
+                                                            <div class="job_adds_right">
+                                                                <a href="#!"><i class="far fa-heart"></i></a>
+                                                            </div>
+                                                        </li>
+                                                        <li><a href="job_single.html">Part Time</a></li>
+                                                        <li><a href="#">apply</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="job_listing_left_fullwidth jb_cover">
+                                        <div class="row">
+                                            <div class="col-lg-9 col-md-9 col-sm-12 col-12">
+                                                <div class="jp_job_post_side_img">
+                                                    <img src="picture/lt5.png" alt="post_img" />
+                                                    <br />
+                                                    <span>google</span>
+                                                </div>
+                                                <div class="jp_job_post_right_cont">
+                                                    <h4><a href="#">Trainee Web Designer, (Fresher)</a></h4>
+                                                    <ul>
+                                                        <li><i class="flaticon-cash"></i>&nbsp; $12K - 15k P.A.</li>
+                                                        <li><i class="flaticon-location-pointer"></i>&nbsp; Los Angeles, Califonia PO, 455001</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                                                <div class="jp_job_post_right_btn_wrapper">
+                                                    <ul>
+                                                        <li>
+                                                            <div class="job_adds_right">
+                                                                <a href="#!"><i class="far fa-heart"></i></a>
+                                                            </div>
+                                                        </li>
+                                                        <li><a href="job_single.html">Part Time</a></li>
+                                                        <li><a href="#">apply</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="job_listing_left_fullwidth jb_cover">
+                                        <div class="row">
+                                            <div class="col-lg-9 col-md-9 col-sm-12 col-12">
+                                                <div class="jp_job_post_side_img">
+                                                    <img src="picture/lt2.png" alt="post_img" />
+                                                    <br />
+                                                    <span>google</span>
+                                                </div>
+                                                <div class="jp_job_post_right_cont">
+                                                    <h4><a href="#">Trainee Web Designer, (Fresher)</a></h4>
+                                                    <ul>
+                                                        <li><i class="flaticon-cash"></i>&nbsp; $12K - 15k P.A.</li>
+                                                        <li><i class="flaticon-location-pointer"></i>&nbsp; Los Angeles, Califonia PO, 455001</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                                                <div class="jp_job_post_right_btn_wrapper">
+                                                    <ul>
+                                                        <li>
+                                                            <div class="job_adds_right">
+                                                                <a href="#!"><i class="far fa-heart"></i></a>
+                                                            </div>
+                                                        </li>
+                                                        <li><a href="job_single.html">Part Time</a></li>
+                                                        <li><a href="#">apply</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="job_listing_left_fullwidth jb_cover">
+                                        <div class="row">
+                                            <div class="col-lg-9 col-md-9 col-sm-12 col-12">
+                                                <div class="jp_job_post_side_img">
+                                                    <img src="picture/lt1.png" alt="post_img" />
+                                                    <br />
+                                                    <span>google</span>
+                                                </div>
+                                                <div class="jp_job_post_right_cont">
+                                                    <h4><a href="#">Power Systems Experience Designer </a></h4>
+                                                    <ul>
+                                                        <li><i class="flaticon-cash"></i>&nbsp; $12K - 15k P.A.</li>
+                                                        <li><i class="flaticon-location-pointer"></i>&nbsp; Los Angeles, Califonia PO, 455001</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                                                <div class="jp_job_post_right_btn_wrapper">
+                                                    <ul>
+                                                        <li>
+                                                            <div class="job_adds_right">
+                                                                <a href="#!"><i class="far fa-heart"></i></a>
+                                                            </div>
+                                                        </li>
+                                                        <li><a href="job_single.html">Part Time</a></li>
+                                                        <li><a href="#">apply</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="job_listing_left_fullwidth jb_cover">
+                                        <div class="row">
+                                            <div class="col-lg-9 col-md-9 col-sm-12 col-12">
+                                                <div class="jp_job_post_side_img">
+                                                    <img src="picture/lt5.png" alt="post_img" />
+                                                    <br />
+                                                    <span>google</span>
+                                                </div>
+                                                <div class="jp_job_post_right_cont">
+                                                    <h4><a href="#">Trainee Web Designer, (Fresher)</a></h4>
+                                                    <ul>
+                                                        <li><i class="flaticon-cash"></i>&nbsp; $12K - 15k P.A.</li>
+                                                        <li><i class="flaticon-location-pointer"></i>&nbsp; Los Angeles, Califonia PO, 455001</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                                                <div class="jp_job_post_right_btn_wrapper">
+                                                    <ul>
+                                                        <li>
+                                                            <div class="job_adds_right">
+                                                                <a href="#!"><i class="far fa-heart"></i></a>
+                                                            </div>
+                                                        </li>
+                                                        <li><a href="job_single.html">Part Time</a></li>
+                                                        <li><a href="#">apply</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--job single wrapper end-->
+    <!-- news app wrapper start-->
+    <div class="news_letter_wrapper jb_cover">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="job_newsletter_wrapper jb_cover">
+                        <div class="jb_newslwtteter_left">
+                            <h2>Looking For A Job</h2>
+                            <p>Your next level Product developemnt company assetsYour next level Product</p>
+                        </div>
+                        <div class="jb_newslwtteter_button">
+                            <div class="header_btn search_btn news_btn jb_cover">
+                                <a href="#">submit</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- news app wrapper end-->
+    <!-- footer Wrapper Start -->
+    <div class="footer jb_cover">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="footerNav jb_cover">
+                        <a href="#"><img src="picture/logo2.png" alt="img" /></a>
+                        <ul class="footer_first_contact">
+                            <li><i class="flaticon-location-pointer"></i><p>123 City Avenue, Floor 10, <br />malbourne, Australia.</p></li>
+                            <li><i class="flaticon-telephone"></i><p>1 -234 -456 -7890 <br />1 -234 -456 -7890</p></li>
+                            <li><i class="flaticon-envelope"></i><a href="#">info@Jbdesks.com</a><br /><a href="#">support@Jbdesks.com</a></li>
+                        </ul>
+                        <ul class="icon_list_news jb_cover">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="footerNav jb_cover footer_border_displ">
+                        <h5>features</h5>
+                        <ul class="nav-widget">
+                            <li><a href="#"><i class="fa fa-square"></i>Job Management &amp; Billing</a></li>
+                            <li><a href="#"><i class="fa fa-square"></i>Time &amp; Materials Tracking</a></li>
+                            <li><a href="#"><i class="fa fa-square"></i>Standards Compliance </a></li>
+                            <li><a href="#"><i class="fa fa-square"></i>Real Time GPS Tracking</a></li>
+                            <li><a href="#"><i class="fa fa-square"></i>Client Portal</a></li>
+                            <li><a href="#"><i class="fa fa-square"></i>Powerful Workflow</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="footerNav jb_cover footer_border_displ">
+                        <h5>browse</h5>
+                        <ul class="nav-widget">
+                            <li><a href="#"><i class="fa fa-square"></i>Freelancers by Category</a></li>
+                            <li><a href="#"><i class="fa fa-square"></i>Freelancers in USA </a></li>
+                            <li><a href="#"><i class="fa fa-square"></i>Freelancers in UK</a></li>
+                            <li><a href="#"><i class="fa fa-square"></i>Freelancers in Canada</a></li>
+                            <li><a href="#"><i class="fa fa-square"></i>Freelancers in india</a></li>
+                            <li><a href="#"><i class="fa fa-square"></i>find jobs</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="footerNav jb_cover footer_border_displ">
+                        <h5>app &amp; integration</h5>
+                        <ul class="nav-widget">
+                            <li><a href="#"><img src="picture/ft1.png" alt="img" />Xero</a></li>
+                            <li><a href="#"><img src="picture/ft2.png" alt="img" />Reckon</a></li>
+                            <li><a href="#"><img src="picture/ft3.png" alt="img" />Flexidocs</a></li>
+                            <li><a href="#"><img src="picture/ft4.png" alt="img" />Microsoft Exchange</a></li>
+                            <li><a href="#"><img src="picture/ft5.png" alt="img" />Mailchimp</a></li>
+                            <li><a href="#"><img src="picture/ft6.png" alt="img" />MYOB</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copyright_left">
+                    <i class="fa fa-copyright"></i>2019
+                    <a href="#"> JB desks. </a>All Rights
+                    <a href="">reserved</a>.
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <!--/.row-->
+        </div>
+        <!--/.container-->
+        <div class="waveWrapper waveAnimation">
+            <div class="waveWrapperInner bgTop gradient-color">
+                <div class="wave waveTop"></div>
+            </div>
+            <div class="waveWrapperInner bgMiddle">
+                <div class="wave waveMiddle"></div>
+            </div>
+            <div class="waveWrapperInner bgBottom">
+                <div class="wave waveBottom"></div>
+            </div>
+        </div>
+    </div>
+    <!-- footer Wrapper End -->
+    <!-- chat box Wrapper start -->
+    <div id="chat-circle" class="btn btn-raised">
+        <i class="fas fa-comment-alt"></i>
+    </div>
+    <div class="chat-box">
+        <div class="chat-box-header">
+            ChatBot
+            <span class="chat-box-toggle"><i class="fas fa-times"></i></span>
+        </div>
+        <div class="chat-box-body">
+            <div class="chat-box-overlay"></div>
+            <div class="chat-logs"></div>
+            <!--chat-log -->
+        </div>
+        <div class="chat-input">
+            <form>
+                <input type="text" id="chat-input" placeholder="Send a message..." />
+                <button type="submit" class="chat-submit" id="chat-submit"><i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </div>
+    <!-- chat box Wrapper end -->
+    <!--custom js files-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/jquery.menu-aim.js"></script>
+    <script src="js/plugin.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/jquery.countto.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/dropify.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/jquery.inview.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- custom js-->
+    <script>
+        function initMap() {
+            var uluru = {
+                lat: -36.742775,
+                lng: 174.731559
+            };
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 15,
+                scrollwheel: false,
+                center: uluru
+            });
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+            });
+        }
+    </script>
+    <script async="" defer="" src="js/9ab6a2e020ce47d1a7933c9b3886b8b7.js"></script>
+</body>
+</html>

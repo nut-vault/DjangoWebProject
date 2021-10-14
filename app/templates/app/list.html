@@ -1,0 +1,2102 @@
+﻿<!DOCTYPE html>
+<!-- Template Name: JB desksVersion: 1.0.0Author: Webstrot-->
+<!--[if IE 8]><html lang="en" class="ie8 no-js"><![endif]-->
+<!--[if IE 9]><html lang="en" class="ie9 no-js"><![endif]-->
+<!--[if !IE]><!-->
+
+<html lang="zxx" xmlns="http://www.w3.org/1999/xhtml">
+<!--[endif]-->
+<head>
+    <meta charset="utf-8" />
+    <title>Home</title>
+    {% load staticfiles %}
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta name="description" content="JB desks,job portal,job" />
+    <meta name="keywords" content="JB desks,job portal,job" />
+    <!--Template style -->
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/animate.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/bootstrap.min.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/fonts.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/flaticon.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/font-awesome.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/owl.carousel.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/owl.theme.default.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/dropify.min.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/jquery-ui.min.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/magnific-popup.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/nice-select.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/reset.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/style.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/responsive.css'%}" />
+</head>
+<body>
+    <!-- preloader Start -->
+    <!-- preloader Start -->
+    <div class="jb_preloader">
+        <div class="spinner_wrap">
+            <div class="spinner"></div>
+        </div>
+    </div>
+    <div class="cursor"></div>
+    <!-- Top Scroll Start -->
+    <a href="javascript:" id="return-to-top"><i class="fas fa-angle-double-up"></i></a>
+    <!-- Top Scroll End -->
+    <!-- cp navi wrapper Start -->
+    <nav class="cd-dropdown  d-block d-sm-block d-md-block d-lg-none d-xl-none">
+        <h2><a href="main.html"><span><img src="picture/logo.png" alt="img" /></span></a></h2>
+        <a href="#0" class="cd-close">Close</a>
+        <ul class="cd-dropdown-content">
+            <li>
+                <form class="cd-search">
+                    <input type="search" placeholder="Search..." />
+                </form>
+            </li>
+            <li class="has-children">
+                <a href="#">home</a>
+                <ul class="cd-secondary-dropdown icon_menu is-hidden">
+                    <li class="go-back"><a href="#0">Menu</a></li>
+                    <li><a href="main.html">home I</a></li>
+                    <li><a href="index_II.html">home II</a></li>
+                    <li><a href="index_III.html">home III</a></li>
+                </ul>
+            </li>
+            <li class="has-children">
+                <a href="#">jobs</a>
+                <ul class="cd-secondary-dropdown icon_menu is-hidden">
+                    <li class="go-back"><a href="#0">Menu</a></li>
+                    <li><a href="job_listing_grid_left_filter.html">job listing grid </a></li>
+                    <li><a href="job_listing_list_left_filter.html">job listing list</a></li>
+                    <li><a href="job_single.html">job single</a></li>
+                </ul>
+            </li>
+            <!-- .has-children -->
+            <li class="has-children">
+                <a href="#">pages</a>
+                <ul class="cd-secondary-dropdown icon_menu is-hidden">
+                    <li class="go-back"><a href="#0">Menu</a></li>
+                    <li><a href="about_us.html">about us</a></li>
+                    <li><a href="companies.html">companies</a></li>
+                    <li><a href="company_single.html">company single</a></li>
+                    <li><a href="error_page.html">error page</a></li>
+                    <li><a href="login.html">login</a></li>
+                    <li><a href="pricing_table.html">pricing table</a></li>
+                    <li><a href="sign_up.html">sign up</a></li>
+                </ul>
+            </li>
+            <li class="has-children">
+                <a href="#">dashboard</a>
+                <ul class="cd-secondary-dropdown is-hidden">
+                    <li class="go-back"><a href="#0">Menu</a></li>
+                    <li class="has-children">
+                        <a href="#">candidate</a>
+                        <ul class="cd-secondary-dropdown is-hidden">
+                            <li class="go-back"><a href="#0">Menu</a></li>
+                            <li><a href="dashboard/candidate_applied_job.html">applied job</a></li>
+                            <li><a href="dashboard/candidate_dashboard.html">dashboard</a></li>
+                            <li><a href="dashboard/candidate_edit_profile.html">edit profile</a></li>
+                            <li><a href="dashboard/candidate_favourite_job.html">favourite job</a></li>
+                            <li><a href="dashboard/candidate_resume.html">resume</a></li>
+                            <li><a href="dashboard/message.html">message</a></li>
+                            <li><a href="dashboard/pricing_plans.html">pricing plans</a></li>
+                        </ul>
+                        <!-- .cd-secondary-dropdown -->
+                    </li>
+                    <!-- .has-children -->
+                    <li class="has-children">
+                        <a href="#">company</a>
+                        <ul class="cd-secondary-dropdown is-hidden">
+                            <li class="go-back"><a href="#0">Menu</a></li>
+                            <li><a href="dashboard/comp_applications.html">applications</a></li>
+                            <li><a href="dashboard/comp_company_page.html">company page</a></li>
+                            <li><a href="dashboard/comp_employer_dashboard.html">dashboard</a></li>
+                            <li><a href="dashboard/comp_employer_edit_profile.html">edit profile</a></li>
+                            <li><a href="dashboard/comp_employer_manage_jobs.html">manage jobs</a></li>
+                            <li><a href="dashboard/comp_post_new_job.html">post new job</a></li>
+                            <li><a href="dashboard/message.html">message</a></li>
+                            <li><a href="dashboard/pricing_plans.html">pricing plans</a></li>
+                        </ul>
+                        <!-- .cd-secondary-dropdown -->
+                    </li>
+                </ul>
+                <!-- .cd-secondary-dropdown -->
+            </li>
+            <li class="has-children">
+                <a href="#">blog</a>
+                <ul class="cd-secondary-dropdown icon_menu is-hidden">
+                    <li class="go-back"><a href="#0">Menu</a></li>
+                    <li><a href="blog_single.html">blog single</a></li>
+                    <li><a href="blog_category_right_sidebar.html">blog category</a></li>
+                </ul>
+            </li>
+            <li><a href="contact_us.html">contact us </a></li>
+            <li><a href="login.html">login</a></li>
+        </ul>
+        <!-- .cd-dropdown-content -->
+    </nav>
+    <div class="cp_navi_main_wrapper jb_cover">
+        <div class="container-fluid">
+            <div class="cp_logo_wrapper">
+                <a href="main.html"><img src="picture/logo.png" alt="logo" /></a>
+            </div>
+            <!-- mobile menu area start -->
+            <header class="mobail_menu d-block d-sm-block d-md-block d-lg-none d-xl-none">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="cd-dropdown-wrapper">
+                                <a class="house_toggle" href="#0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewbox="0 0 31.177 31.177" style="enable-background:new 0 0 31.177 31.177;" xml:space="preserve" width="25px" height="25px">
+                                    <g>
+                                    <g>
+                                    <path class="menubar" d="M30.23,1.775H0.946c-0.489,0-0.887-0.398-0.887-0.888S0.457,0,0.946,0H30.23    c0.49,0,0.888,0.398,0.888,0.888S30.72,1.775,30.23,1.775z" fill="#004165" />
+            </g>
+                                    <g>
+                                    <path class="menubar" d="M30.23,9.126H12.069c-0.49,0-0.888-0.398-0.888-0.888c0-0.49,0.398-0.888,0.888-0.888H30.23    c0.49,0,0.888,0.397,0.888,0.888C31.118,8.729,30.72,9.126,30.23,9.126z" fill="#004165" />
+            </g>
+                                    <g>
+                                    <path class="menubar" d="M30.23,16.477H0.946c-0.489,0-0.887-0.398-0.887-0.888c0-0.49,0.398-0.888,0.887-0.888H30.23    c0.49,0,0.888,0.397,0.888,0.888C31.118,16.079,30.72,16.477,30.23,16.477z" fill="#004165" />
+            </g>
+                                    <g>
+                                    <path class="menubar" d="M30.23,23.826H12.069c-0.49,0-0.888-0.396-0.888-0.887c0-0.49,0.398-0.888,0.888-0.888H30.23    c0.49,0,0.888,0.397,0.888,0.888C31.118,23.43,30.72,23.826,30.23,23.826z" fill="#004165" />
+            </g>
+                                    <g>
+                                    <path class="menubar" d="M30.23,31.177H0.946c-0.489,0-0.887-0.396-0.887-0.887c0-0.49,0.398-0.888,0.887-0.888H30.23    c0.49,0,0.888,0.398,0.888,0.888C31.118,30.78,30.72,31.177,30.23,31.177z" fill="#004165" />
+            </g>
+           </g>
+          </svg>
+                                </a>
+                                <!-- .cd-dropdown -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- .cd-dropdown-wrapper -->
+            </header>
+            <div class="menu_btn_box header_btn jb_cover">
+                <ul>
+                    <li><a href="sign_up.html"><i class="flaticon-man-user"></i>sign up</a></li>
+                    <li><a href="login.html"><i class="flaticon-login"></i>login</a></li>
+                </ul>
+            </div>
+            <div class="jb_navigation_wrapper">
+                <div class="mainmenu d-xl-block d-lg-block d-md-none d-sm-none d-none">
+                    <ul class="main_nav_ul">
+                        <li class="has-mega gc_main_navigation">
+                            <a href="#" class="gc_main_navigation">home</a>
+                            <ul class="navi_2_dropdown">
+                                <li class="parent"><a href="main.html"><i class="fas fa-square"></i>home I</a></li>
+                                <li class="parent"><a href="index_II.html"><i class="fas fa-square"></i>home II</a></li>
+                                <li class="parent"><a href="index_III.html"><i class="fas fa-square"></i>home III</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-mega gc_main_navigation">
+                            <a href="#" class="gc_main_navigation active_class">jobs</a>
+                            <ul class="navi_2_dropdown">
+                                <li class="parent"><a href="job_listing_grid_left_filter.html"><i class="fas fa-square"></i>job listing grid</a></li>
+                                <li class="parent"><a href="job_listing_list_left_filter.html"><i class="fas fa-square"></i>job listing list</a></li>
+                                <li class="parent"><a href="job_single.html"><i class="fas fa-square"></i>job single</a></li>
+                                <li class="parent">
+                                    <a href="#"><i class="fas fa-square"></i>jobs<span><i class="fas fa-chevron-right"></i></span></a>
+                                    <ul class="dropdown-menu-right">
+                                        <li><a href="job_listing_grid_left_filter.html"><i class="fas fa-square"></i>job listing grid</a></li>
+                                        <li><a href="job_listing_list_left_filter.html"><i class="fas fa-square"></i>job listing list</a></li>
+                                        <li><a href="job_single.html"><i class="fas fa-square"></i>job single</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-mega gc_main_navigation kv_sub_menu">
+                            <a href="#" class="gc_main_navigation">candidates</a>
+                            <!-- mega menu start -->
+                            <ul class="kv_mega_menu">
+                                <li class="kv_mega_menu_width">
+                                    <div class="container">
+                                        <div class="jn_menu_partion_div">
+                                            <div class="candidate_width">
+                                                <div class="jen_tabs_conent_list jb_cover">
+                                                    <h1>job skills</h1>
+                                                    <ul>
+                                                        <li><a href="#"><i class="fas fa-square"></i>HTML5 &amp; CSS3</a></li>
+                                                        <li><a href="#"><i class="fas fa-square"></i>wordpress</a></li>
+                                                        <li><a href="#"><i class="fas fa-square"></i>javascript</a></li>
+                                                        <li><a href="#"><i class="fas fa-square"></i>photoshop</a></li>
+                                                        <li><a href="#"><i class="fas fa-square"></i>designer</a></li>
+                                                        <li><a href="#"><i class="fas fa-square"></i>construction</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="candidate_width">
+                                                <div class="jen_tabs_conent_list jb_cover">
+                                                    <h1>categories</h1>
+                                                    <ul>
+                                                        <li><a href="#"><i class="fas fa-square"></i>graphic design</a></li>
+                                                        <li><a href="#"><i class="fas fa-square"></i>engineering jobs</a></li>
+                                                        <li><a href="#"><i class="fas fa-square"></i>mainframe jobs</a></li>
+                                                        <li><a href="#"><i class="fas fa-square"></i>PSU jobs</a></li>
+                                                        <li><a href="#"><i class="fas fa-square"></i>goverment jobs</a></li>
+                                                        <li><a href="#"><i class="fas fa-square"></i>IT company</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="candidate_width">
+                                                <div class="jen_tabs_conent_list   jb_cover">
+                                                    <h1>job location</h1>
+                                                    <ul>
+                                                        <li><a href="#"><i class="fas fa-square"></i>india</a></li>
+                                                        <li><a href="#"><i class="fas fa-square"></i>united state</a></li>
+                                                        <li><a href="#"><i class="fas fa-square"></i>japan</a></li>
+                                                        <li><a href="#"><i class="fas fa-square"></i>dubai</a></li>
+                                                        <li><a href="#"><i class="fas fa-square"></i>south africa</a></li>
+                                                        <li><a href="#"><i class="fas fa-square"></i>china</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="candidate_width">
+                                                <div class="jen_tabs_conent_list   jb_cover">
+                                                    <h1>open jobs</h1>
+                                                    <div class="open_jobs_wrapper">
+                                                        <div class="open_jobs_wrapper_1 jb_cover">
+                                                            <img src="picture/job1.jpg" alt="img" />
+                                                            <div class="open_job_text">
+                                                                <h3><a href="#">Some designers inelevated the..</a></h3>
+                                                                <p>5 hour ago</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="open_jobs_wrapper_1 jb_cover">
+                                                            <img src="picture/job1.jpg" alt="img" />
+                                                            <div class="open_job_text">
+                                                                <h3><a href="#">Some designers inelevated the..</a></h3>
+                                                                <p>12 hour ago</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="view_all_job jb_cover">
+                                                            <a href="#">view all jobs</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-mega gc_main_navigation">
+                            <a href="#" class="gc_main_navigation">pages</a>
+                            <ul class="navi_2_dropdown">
+                                <li class="parent"><a href="about_us.html"><i class="fas fa-square"></i>about us</a></li>
+                                <li class="parent"><a href="companies.html"><i class="fas fa-square"></i>companies</a></li>
+                                <li class="parent"><a href="company_single.html"><i class="fas fa-square"></i>company single</a></li>
+                                <li class="parent"><a href="error_page.html"><i class="fas fa-square"></i>error page</a></li>
+                                <li class="parent"><a href="login.html"><i class="fas fa-square"></i>login</a></li>
+                                <li class="parent"><a href="pricing_table.html"><i class="fas fa-square"></i>pricing table</a></li>
+                                <li class="parent"><a href="sign_up.html"><i class="fas fa-square"></i>sign_up</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-mega gc_main_navigation">
+                            <a href="#" class="gc_main_navigation">dashboard</a>
+                            <ul class="navi_2_dropdown">
+                                <li class="parent">
+                                    <a href="#"><i class="fas fa-square"></i>candidate<span><i class="fas fa-chevron-right"></i></span></a>
+                                    <ul class="dropdown-menu-right">
+                                        <li><a href="dashboard/candidate_applied_job.html"><i class="fas fa-square"></i>applied job</a></li>
+                                        <li><a href="dashboard/candidate_dashboard.html"><i class="fas fa-square"></i>dashboard</a></li>
+                                        <li><a href="dashboard/candidate_edit_profile.html"><i class="fas fa-square"></i>edit profile</a></li>
+                                        <li><a href="dashboard/candidate_favourite_job.html"><i class="fas fa-square"></i>favourite job</a></li>
+                                        <li><a href="dashboard/candidate_resume.html"><i class="fas fa-square"></i>resume</a></li>
+                                        <li><a href="dashboard/message.html"><i class="fas fa-square"></i>message</a></li>
+                                        <li><a href="dashboard/pricing_plans.html"><i class="fas fa-square"></i>pricing plans</a></li>
+                                    </ul>
+                                </li>
+                                <li class="parent">
+                                    <a href="#"><i class="fas fa-square"></i>company<span><i class="fas fa-chevron-right"></i></span></a>
+                                    <ul class="dropdown-menu-right">
+                                        <li><a href="dashboard/comp_applications.html"><i class="fas fa-square"></i>applications</a></li>
+                                        <li><a href="dashboard/comp_company_page.html"><i class="fas fa-square"></i>company page</a></li>
+                                        <li><a href="dashboard/comp_employer_dashboard.html"><i class="fas fa-square"></i>dashboard</a></li>
+                                        <li><a href="dashboard/comp_employer_edit_profile.html"><i class="fas fa-square"></i>edit profile</a></li>
+                                        <li><a href="dashboard/comp_employer_manage_jobs.html"><i class="fas fa-square"></i>manage jobs</a></li>
+                                        <li><a href="dashboard/comp_post_new_job.html"><i class="fas fa-square"></i>post new job</a></li>
+                                        <li><a href="dashboard/message.html"><i class="fas fa-square"></i>message</a></li>
+                                        <li><a href="dashboard/pricing_plans.html"><i class="fas fa-square"></i>pricing plans</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-mega gc_main_navigation">
+                            <a href="#" class="gc_main_navigation">blog</a>
+                            <ul class="navi_2_dropdown">
+                                <li class="parent"><a href="blog_single.html"><i class="fas fa-square"></i>blog single</a></li>
+                                <li class="parent"><a href="blog_category_right_sidebar.html"><i class="fas fa-square"></i>blog category</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact_us.html" class="gc_main_navigation">contact</a></li>
+                    </ul>
+                </div>
+                <!-- mainmenu end -->
+                <div class="jb_search_btn_wrapper d-none d-sm-none d-md-none d-lg-block d-xl-block">
+                    <!-- extra nav -->
+                    <div class="extra-nav">
+                        <div class="extra-cell">
+                            <button id="quik-search-btn" type="button" class="site-button radius-xl"><i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+                    <!-- Quik search -->
+                    <div class="dez-quik-search bg-primary-dark">
+                        <form action="#">
+                            <input name="search" value="" type="text" class="form-control" placeholder="Type to search..." />
+                            <span id="quik-search-remove"><i class="fas fa-times"></i></span>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- navi wrapper End -->
+    <!-- top header wrapper start -->
+    <div class="page_title_section">
+        <div class="page_header">
+            <div class="container">
+                <div class="row">
+                    <!-- section_heading start -->
+                    <div class="col-lg-9 col-md-9 col-12 col-sm-8">
+                        <h1>job listing</h1>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-12 col-sm-4">
+                        <div class="sub_title_section">
+                            <ul class="sub_title">
+                                <li><a href="#">Home </a>&nbsp; / &nbsp;</li>
+                                <li>job listing</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- top header wrapper end -->
+    <!--job listing filter  wrapper start-->
+    <div class="job_filter_listing_wrapper jb_cover">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-12 col-sm-12 col-12 d-none d-sm-none d-md-none d-lg-block d-xl-block">
+                    <div class="job_filter_category_sidebar jb_cover">
+                        <div class="job_filter_sidebar_heading jb_cover">
+                            <h1>jobs by category</h1>
+                        </div>
+                        <div class="category_jobbox jb_cover">
+                            <p class="job_field"><input type="checkbox" id="c1" name="cb" /><label for="c1">graphic designer<span>(155)</span></label></p>
+                            <p class="job_field"><input type="checkbox" id="c2" name="cb" /><label for="c2"> Engineering Jobs <span>(514)</span></label></p>
+                            <p class="job_field"><input type="checkbox" id="c3" name="cb" /><label for="c3">Mainframe Jobs <span>(554)</span></label></p>
+                            <p class="job_field"><input type="checkbox" id="c4" name="cb" /><label for="c4">Legal Jobs <span>(457)</span></label></p>
+                            <p class="job_field"><input type="checkbox" id="c5" name="cb" /><label for="c5">IT Jobs <span>(254)</span></label></p>
+                            <p class="job_field"><input type="checkbox" id="c6" name="cb" /><label for="c6">PSU Jobs <span>(1054)</span></label></p>
+                            <p class="job_field"><input type="checkbox" id="c7" name="cb" /><label for="c7">government Jobs <span>(1284)</span></label></p>
+                            <div class="seeMore">
+                                <a href="#">view all categories</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="job_filter_category_sidebar jb_cover">
+                        <div class="job_filter_sidebar_heading jb_cover">
+                            <h1>jobs by location</h1>
+                        </div>
+                        <div class="category_jobbox jb_cover">
+                            <p class="job_field"><input type="checkbox" id="c01" name="cb" /><label for="c01">Jobs in delhi <span>(24)</span></label></p>
+                            <p class="job_field"><input type="checkbox" id="c02" name="cb" /><label for="c02"> Jobs in mumbai <span>(1242)</span></label></p>
+                            <p class="job_field"><input type="checkbox" id="c03" name="cb" /><label for="c03">Jobs in chennai <span>(458)</span></label></p>
+                            <p class="job_field"><input type="checkbox" id="c04" name="cb" /><label for="c04">Jobs in indore <span>(1047)</span></label></p>
+                            <p class="job_field"><input type="checkbox" id="c05" name="cb" /><label for="c05">Job in bhopal <span>(124)</span></label></p>
+                            <p class="job_field"><input type="checkbox" id="c06" name="cb" /><label for="c06">Job in pune <span>(124)</span></label></p>
+                            <p class="job_field"><input type="checkbox" id="c07" name="cb" /><label for="c07">Job in banglore <span>(124)</span></label></p>
+                            <div class="seeMore">
+                                <a href="#">view all categories</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="job_filter_category_sidebar jb_cover">
+                        <div class="job_filter_sidebar_heading jb_cover">
+                            <h1>your skill's</h1>
+                        </div>
+                        <div class="category_jobbox jb_cover">
+                            <p class="job_field"><input type="checkbox" id="c11" name="cb" /><label for="c11">javascript <span>(124)</span></label></p>
+                            <p class="job_field"><input type="checkbox" id="c12" name="cb" /><label for="c12"> HTML5 <span>(42)</span></label></p>
+                            <p class="job_field"><input type="checkbox" id="c13" name="cb" /><label for="c13">CSS <span>(158)</span></label></p>
+                            <p class="job_field"><input type="checkbox" id="c14" name="cb" /><label for="c14">marketing <span>(47)</span></label></p>
+                            <p class="job_field"><input type="checkbox" id="c15" name="cb" /><label for="c15">web design <span>(124)</span></label></p>
+                            <p class="job_field"><input type="checkbox" id="c16" name="cb" /><label for="c16">PHP<span>(124)</span></label></p>
+                            <p class="job_field"><input type="checkbox" id="c17" name="cb" /><label for="c17">social media<span>(124)</span></label></p>
+                            <div class="seeMore">
+                                <a href="#">view all categories</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="job_filter_category_sidebar jb_cover">
+                        <div class="job_filter_sidebar_heading jb_cover">
+                            <h1>salary</h1>
+                        </div>
+                        <div class="category_jobbox jb_cover">
+                            <div class="widget price-range">
+                                <ul>
+                                    <li class="range">
+                                        <div id="range-price" class="range-box"></div><input type="text" id="price" class="price-box" readonly="" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jp_add_resume_wrapper jb_cover">
+                        <div class="jp_add_resume_img_overlay"></div>
+                        <div class="jp_add_resume_cont">
+                            <img src="picture/logo2.png" alt="logo" />
+                            <h4>Get Best Matched Jobs On your Email. Add Resume NOW!</h4>
+                            <div class="width_50">
+                                <input type="file" id="input-file-now-custom-233" class="dropify" data-height="90" />
+                                <span class="post_photo">add resume</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-12 col-sm-12 col-12">
+                    <div class="job_listing_left_side jb_cover">
+                        <div class="filter-area jb_cover">
+                            <select><option>short by</option><option>most recent</option><option>most popular</option><option>top rated</option></select>
+                            <div class="list-grid">
+                                <ul class="nav nav-tabs">
+                                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#grid"><i class="flaticon-four-grid-layout-design-interface-symbol"></i></a></li>
+                                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#list"><i class="flaticon-list"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="showpro">
+                                <p>You're Watching 01 to 20</p>
+                            </div>
+                        </div>
+                        <div class="tab-content btc_shop_index_content_tabs_main jb_cover">
+                            <div id="grid" class="tab-pane active">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <div class="job_listing_left_fullwidth job_listing_grid_wrapper jb_cover">
+                                            <div class="row">
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="jp_job_post_side_img">
+                                                        <img src="picture/lt1.png" alt="post_img" />
+                                                        <br />
+                                                        <span>google</span>
+                                                    </div>
+                                                    <div class="jp_job_post_right_cont">
+                                                        <h4><a href="#">Trainee Web Designer, (Fresher)</a></h4>
+                                                        <ul>
+                                                            <li><i class="flaticon-cash"></i>&nbsp; $12K - 15k P.A.</li>
+                                                            <li><i class="flaticon-location-pointer"></i>&nbsp; Los Angeles, Califonia PO, 455001</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="jp_job_post_right_btn_wrapper jb_cover">
+                                                        <ul>
+                                                            <li>
+                                                                <div class="job_adds_right">
+                                                                    <a href="#!"><i class="far fa-heart"></i></a>
+                                                                </div>
+                                                            </li>
+                                                            <li><a href="job_single.html">Part Time</a></li>
+                                                            <li><a href="#" data-toggle="modal" data-target="#myModal01">apply</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="modal fade apply_job_popup" id="myModal01" role="dialog">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                <div class="row">
+                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                                        <div class="apply_job jb_cover">
+                                                                            <h1>apply for this job :</h1>
+                                                                            <div class="search_alert_box jb_cover">
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="name" placeholder="full name" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="Email" placeholder="Enter Your Email" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <textarea class="form-control" name="message" placeholder="Message"></textarea>
+                                                                                </div>
+                                                                                <div class="resume_optional jb_cover">
+                                                                                    <p>resume (optional)</p>
+                                                                                    <div class="width_50">
+                                                                                        <input type="file" id="input-file-now-custom-01" class="dropify" data-height="90" />
+                                                                                        <span class="post_photo">upload resume</span>
+                                                                                    </div>
+                                                                                    <p class="word_file">microsoft word or pdf file only (5mb)</p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="header_btn search_btn applt_pop_btn jb_cover">
+                                                                                <a href="#">apply now</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <div class="job_listing_left_fullwidth job_listing_grid_wrapper jb_cover">
+                                            <div class="row">
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="jp_job_post_side_img">
+                                                        <img src="picture/lt2.png" alt="post_img" />
+                                                        <br />
+                                                        <span>google</span>
+                                                    </div>
+                                                    <div class="jp_job_post_right_cont">
+                                                        <h4><a href="#">Power Systems Experience Designer </a></h4>
+                                                        <ul>
+                                                            <li><i class="flaticon-cash"></i>&nbsp; $12K - 15k P.A.</li>
+                                                            <li><i class="flaticon-location-pointer"></i>&nbsp; Los Angeles, Califonia PO, 455001</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="jp_job_post_right_btn_wrapper jb_cover">
+                                                        <ul>
+                                                            <li>
+                                                                <div class="job_adds_right">
+                                                                    <a href="#!"><i class="far fa-heart"></i></a>
+                                                                </div>
+                                                            </li>
+                                                            <li><a href="job_single.html">Part Time</a></li>
+                                                            <li><a href="#" data-toggle="modal" data-target="#myModal02">apply</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="modal fade apply_job_popup" id="myModal02" role="dialog">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                <div class="row">
+                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                                        <div class="apply_job jb_cover">
+                                                                            <h1>apply for this job :</h1>
+                                                                            <div class="search_alert_box jb_cover">
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="name" placeholder="full name" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="Email" placeholder="Enter Your Email" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <textarea class="form-control" name="message" placeholder="Message"></textarea>
+                                                                                </div>
+                                                                                <div class="resume_optional jb_cover">
+                                                                                    <p>resume (optional)</p>
+                                                                                    <div class="width_50">
+                                                                                        <input type="file" id="input-file-now-custom-02" class="dropify" data-height="90" />
+                                                                                        <span class="post_photo">upload resume</span>
+                                                                                    </div>
+                                                                                    <p class="word_file">microsoft word or pdf file only (5mb)</p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="header_btn search_btn applt_pop_btn jb_cover">
+                                                                                <a href="#">apply now</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <div class="job_listing_left_fullwidth job_listing_grid_wrapper jb_cover">
+                                            <div class="row">
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="jp_job_post_side_img">
+                                                        <img src="picture/lt5.png" alt="post_img" />
+                                                        <br />
+                                                        <span>google</span>
+                                                    </div>
+                                                    <div class="jp_job_post_right_cont">
+                                                        <h4><a href="#">Power Systems Experience Designer </a></h4>
+                                                        <ul>
+                                                            <li><i class="flaticon-cash"></i>&nbsp; $12K - 15k P.A.</li>
+                                                            <li><i class="flaticon-location-pointer"></i>&nbsp; Los Angeles, Califonia PO, 455001</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="jp_job_post_right_btn_wrapper jb_cover">
+                                                        <ul>
+                                                            <li>
+                                                                <div class="job_adds_right">
+                                                                    <a href="#!"><i class="far fa-heart"></i></a>
+                                                                </div>
+                                                            </li>
+                                                            <li><a href="job_single.html">Part Time</a></li>
+                                                            <li><a href="#" data-toggle="modal" data-target="#myModal09">apply</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="modal fade apply_job_popup" id="myModal09" role="dialog">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                <div class="row">
+                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                                        <div class="apply_job jb_cover">
+                                                                            <h1>apply for this job :</h1>
+                                                                            <div class="search_alert_box jb_cover">
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="name" placeholder="full name" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="Email" placeholder="Enter Your Email" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <textarea class="form-control" name="message" placeholder="Message"></textarea>
+                                                                                </div>
+                                                                                <div class="resume_optional jb_cover">
+                                                                                    <p>resume (optional)</p>
+                                                                                    <div class="width_50">
+                                                                                        <input type="file" id="input-file-now-custom-09" class="dropify" data-height="90" />
+                                                                                        <span class="post_photo">upload resume</span>
+                                                                                    </div>
+                                                                                    <p class="word_file">microsoft word or pdf file only (5mb)</p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="header_btn search_btn applt_pop_btn jb_cover">
+                                                                                <a href="#">apply now</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <div class="job_listing_left_fullwidth job_listing_grid_wrapper jb_cover">
+                                            <div class="row">
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="jp_job_post_side_img">
+                                                        <img src="picture/lt3.png" alt="post_img" />
+                                                        <br />
+                                                        <span>google</span>
+                                                    </div>
+                                                    <div class="jp_job_post_right_cont">
+                                                        <h4><a href="#">Trainee Web Designer, (Fresher)</a></h4>
+                                                        <ul>
+                                                            <li><i class="flaticon-cash"></i>&nbsp; $12K - 15k P.A.</li>
+                                                            <li><i class="flaticon-location-pointer"></i>&nbsp; Los Angeles, Califonia PO, 455001</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="jp_job_post_right_btn_wrapper jb_cover">
+                                                        <ul>
+                                                            <li>
+                                                                <div class="job_adds_right">
+                                                                    <a href="#!"><i class="far fa-heart"></i></a>
+                                                                </div>
+                                                            </li>
+                                                            <li><a href="job_single.html">Part Time</a></li>
+                                                            <li><a href="#" data-toggle="modal" data-target="#myModal03">apply</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="modal fade apply_job_popup" id="myModal03" role="dialog">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                <div class="row">
+                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                                        <div class="apply_job jb_cover">
+                                                                            <h1>apply for this job :</h1>
+                                                                            <div class="search_alert_box jb_cover">
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="name" placeholder="full name" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="Email" placeholder="Enter Your Email" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <textarea class="form-control" name="message" placeholder="Message"></textarea>
+                                                                                </div>
+                                                                                <div class="resume_optional jb_cover">
+                                                                                    <p>resume (optional)</p>
+                                                                                    <div class="width_50">
+                                                                                        <input type="file" id="input-file-now-custom-03" class="dropify" data-height="90" />
+                                                                                        <span class="post_photo">upload resume</span>
+                                                                                    </div>
+                                                                                    <p class="word_file">microsoft word or pdf file only (5mb)</p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="header_btn search_btn applt_pop_btn jb_cover">
+                                                                                <a href="#">apply now</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <div class="job_listing_left_fullwidth job_listing_grid_wrapper jb_cover">
+                                            <div class="row">
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="jp_job_post_side_img">
+                                                        <img src="picture/lt4.png" alt="post_img" />
+                                                        <br />
+                                                        <span>google</span>
+                                                    </div>
+                                                    <div class="jp_job_post_right_cont">
+                                                        <h4><a href="#">Trainee Web Designer, (Fresher)</a></h4>
+                                                        <ul>
+                                                            <li><i class="flaticon-cash"></i>&nbsp; $12K - 15k P.A.</li>
+                                                            <li><i class="flaticon-location-pointer"></i>&nbsp; Los Angeles, Califonia PO, 455001</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="jp_job_post_right_btn_wrapper jb_cover">
+                                                        <ul>
+                                                            <li>
+                                                                <div class="job_adds_right">
+                                                                    <a href="#!"><i class="far fa-heart"></i></a>
+                                                                </div>
+                                                            </li>
+                                                            <li><a href="job_single.html">Part Time</a></li>
+                                                            <li><a href="#" data-toggle="modal" data-target="#myModal05">apply</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="modal fade apply_job_popup" id="myModal05" role="dialog">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                <div class="row">
+                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                                        <div class="apply_job jb_cover">
+                                                                            <h1>apply for this job :</h1>
+                                                                            <div class="search_alert_box jb_cover">
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="name" placeholder="full name" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="Email" placeholder="Enter Your Email" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <textarea class="form-control" name="message" placeholder="Message"></textarea>
+                                                                                </div>
+                                                                                <div class="resume_optional jb_cover">
+                                                                                    <p>resume (optional)</p>
+                                                                                    <div class="width_50">
+                                                                                        <input type="file" id="input-file-now-custom-05" class="dropify" data-height="90" />
+                                                                                        <span class="post_photo">upload resume</span>
+                                                                                    </div>
+                                                                                    <p class="word_file">microsoft word or pdf file only (5mb)</p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="header_btn search_btn applt_pop_btn jb_cover">
+                                                                                <a href="#">apply now</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <div class="job_listing_left_fullwidth job_listing_grid_wrapper jb_cover">
+                                            <div class="row">
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="jp_job_post_side_img">
+                                                        <img src="picture/lt4.png" alt="post_img" />
+                                                        <br />
+                                                        <span>google</span>
+                                                    </div>
+                                                    <div class="jp_job_post_right_cont">
+                                                        <h4><a href="#">Power Systems Experience Designer </a></h4>
+                                                        <ul>
+                                                            <li><i class="flaticon-cash"></i>&nbsp; $12K - 15k P.A.</li>
+                                                            <li><i class="flaticon-location-pointer"></i>&nbsp; Los Angeles, Califonia PO, 455001</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="jp_job_post_right_btn_wrapper jb_cover">
+                                                        <ul>
+                                                            <li>
+                                                                <div class="job_adds_right">
+                                                                    <a href="#!"><i class="far fa-heart"></i></a>
+                                                                </div>
+                                                            </li>
+                                                            <li><a href="job_single.html">Part Time</a></li>
+                                                            <li><a href="#" data-toggle="modal" data-target="#myModal04">apply</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="modal fade apply_job_popup" id="myModal04" role="dialog">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                <div class="row">
+                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                                        <div class="apply_job jb_cover">
+                                                                            <h1>apply for this job :</h1>
+                                                                            <div class="search_alert_box jb_cover">
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="name" placeholder="full name" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="Email" placeholder="Enter Your Email" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <textarea class="form-control" name="message" placeholder="Message"></textarea>
+                                                                                </div>
+                                                                                <div class="resume_optional jb_cover">
+                                                                                    <p>resume (optional)</p>
+                                                                                    <div class="width_50">
+                                                                                        <input type="file" id="input-file-now-custom-04" class="dropify" data-height="90" />
+                                                                                        <span class="post_photo">upload resume</span>
+                                                                                    </div>
+                                                                                    <p class="word_file">microsoft word or pdf file only (5mb)</p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="header_btn search_btn applt_pop_btn jb_cover">
+                                                                                <a href="#">apply now</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <div class="job_listing_left_fullwidth job_listing_grid_wrapper jb_cover">
+                                            <div class="row">
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="jp_job_post_side_img">
+                                                        <img src="picture/lt5.png" alt="post_img" />
+                                                        <br />
+                                                        <span>google</span>
+                                                    </div>
+                                                    <div class="jp_job_post_right_cont">
+                                                        <h4><a href="#">Trainee Web Designer, (Fresher)</a></h4>
+                                                        <ul>
+                                                            <li><i class="flaticon-cash"></i>&nbsp; $12K - 15k P.A.</li>
+                                                            <li><i class="flaticon-location-pointer"></i>&nbsp; Los Angeles, Califonia PO, 455001</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="jp_job_post_right_btn_wrapper jb_cover">
+                                                        <ul>
+                                                            <li>
+                                                                <div class="job_adds_right">
+                                                                    <a href="#!"><i class="far fa-heart"></i></a>
+                                                                </div>
+                                                            </li>
+                                                            <li><a href="job_single.html">Part Time</a></li>
+                                                            <li><a href="#" data-toggle="modal" data-target="#myModal051">apply</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="modal fade apply_job_popup" id="myModal051" role="dialog">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                <div class="row">
+                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                                        <div class="apply_job jb_cover">
+                                                                            <h1>apply for this job :</h1>
+                                                                            <div class="search_alert_box jb_cover">
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="name" placeholder="full name" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="Email" placeholder="Enter Your Email" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <textarea class="form-control" name="message" placeholder="Message"></textarea>
+                                                                                </div>
+                                                                                <div class="resume_optional jb_cover">
+                                                                                    <p>resume (optional)</p>
+                                                                                    <div class="width_50">
+                                                                                        <input type="file" id="input-file-now-custom-051" class="dropify" data-height="90" />
+                                                                                        <span class="post_photo">upload resume</span>
+                                                                                    </div>
+                                                                                    <p class="word_file">microsoft word or pdf file only (5mb)</p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="header_btn search_btn applt_pop_btn jb_cover">
+                                                                                <a href="#">apply now</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <div class="job_listing_left_fullwidth job_listing_grid_wrapper jb_cover">
+                                            <div class="row">
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="jp_job_post_side_img">
+                                                        <img src="picture/lt1.png" alt="post_img" />
+                                                        <br />
+                                                        <span>google</span>
+                                                    </div>
+                                                    <div class="jp_job_post_right_cont">
+                                                        <h4><a href="#">Power Systems Experience Designer </a></h4>
+                                                        <ul>
+                                                            <li><i class="flaticon-cash"></i>&nbsp; $12K - 15k P.A.</li>
+                                                            <li><i class="flaticon-location-pointer"></i>&nbsp; Los Angeles, Califonia PO, 455001</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="jp_job_post_right_btn_wrapper jb_cover">
+                                                        <ul>
+                                                            <li>
+                                                                <div class="job_adds_right">
+                                                                    <a href="#!"><i class="far fa-heart"></i></a>
+                                                                </div>
+                                                            </li>
+                                                            <li><a href="job_single.html">Part Time</a></li>
+                                                            <li><a href="#" data-toggle="modal" data-target="#myModal06">apply</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="modal fade apply_job_popup" id="myModal06" role="dialog">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                <div class="row">
+                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                                        <div class="apply_job jb_cover">
+                                                                            <h1>apply for this job :</h1>
+                                                                            <div class="search_alert_box jb_cover">
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="name" placeholder="full name" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="Email" placeholder="Enter Your Email" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <textarea class="form-control" name="message" placeholder="Message"></textarea>
+                                                                                </div>
+                                                                                <div class="resume_optional jb_cover">
+                                                                                    <p>resume (optional)</p>
+                                                                                    <div class="width_50">
+                                                                                        <input type="file" id="input-file-now-custom-06" class="dropify" data-height="90" />
+                                                                                        <span class="post_photo">upload resume</span>
+                                                                                    </div>
+                                                                                    <p class="word_file">microsoft word or pdf file only (5mb)</p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="header_btn search_btn applt_pop_btn jb_cover">
+                                                                                <a href="#">apply now</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <div class="job_listing_left_fullwidth job_listing_grid_wrapper jb_cover">
+                                            <div class="row">
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="jp_job_post_side_img">
+                                                        <img src="picture/lt2.png" alt="post_img" />
+                                                        <br />
+                                                        <span>google</span>
+                                                    </div>
+                                                    <div class="jp_job_post_right_cont">
+                                                        <h4><a href="#">Trainee Web Designer, (Fresher)</a></h4>
+                                                        <ul>
+                                                            <li><i class="flaticon-cash"></i>&nbsp; $12K - 15k P.A.</li>
+                                                            <li><i class="flaticon-location-pointer"></i>&nbsp; Los Angeles, Califonia PO, 455001</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="jp_job_post_right_btn_wrapper jb_cover">
+                                                        <ul>
+                                                            <li>
+                                                                <div class="job_adds_right">
+                                                                    <a href="#!"><i class="far fa-heart"></i></a>
+                                                                </div>
+                                                            </li>
+                                                            <li><a href="job_single.html">Part Time</a></li>
+                                                            <li><a href="#" data-toggle="modal" data-target="#myModal07">apply</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="modal fade apply_job_popup" id="myModal07" role="dialog">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                <div class="row">
+                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                                        <div class="apply_job jb_cover">
+                                                                            <h1>apply for this job :</h1>
+                                                                            <div class="search_alert_box jb_cover">
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="name" placeholder="full name" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="Email" placeholder="Enter Your Email" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <textarea class="form-control" name="message" placeholder="Message"></textarea>
+                                                                                </div>
+                                                                                <div class="resume_optional jb_cover">
+                                                                                    <p>resume (optional)</p>
+                                                                                    <div class="width_50">
+                                                                                        <input type="file" id="input-file-now-custom-07" class="dropify" data-height="90" />
+                                                                                        <span class="post_photo">upload resume</span>
+                                                                                    </div>
+                                                                                    <p class="word_file">microsoft word or pdf file only (5mb)</p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="header_btn search_btn applt_pop_btn jb_cover">
+                                                                                <a href="#">apply now</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <div class="job_listing_left_fullwidth job_listing_grid_wrapper jb_cover">
+                                            <div class="row">
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="jp_job_post_side_img">
+                                                        <img src="picture/lt4.png" alt="post_img" />
+                                                        <br />
+                                                        <span>google</span>
+                                                    </div>
+                                                    <div class="jp_job_post_right_cont">
+                                                        <h4><a href="#">Power Systems Experience Designer </a></h4>
+                                                        <ul>
+                                                            <li><i class="flaticon-cash"></i>&nbsp; $12K - 15k P.A.</li>
+                                                            <li><i class="flaticon-location-pointer"></i>&nbsp; Los Angeles, Califonia PO, 455001</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="jp_job_post_right_btn_wrapper jb_cover">
+                                                        <ul>
+                                                            <li>
+                                                                <div class="job_adds_right">
+                                                                    <a href="#!"><i class="far fa-heart"></i></a>
+                                                                </div>
+                                                            </li>
+                                                            <li><a href="job_single.html">Part Time</a></li>
+                                                            <li><a href="#" data-toggle="modal" data-target="#myModal061">apply</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="modal fade apply_job_popup" id="myModal061" role="dialog">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                <div class="row">
+                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                                        <div class="apply_job jb_cover">
+                                                                            <h1>apply for this job :</h1>
+                                                                            <div class="search_alert_box jb_cover">
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="name" placeholder="full name" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="Email" placeholder="Enter Your Email" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <textarea class="form-control" name="message" placeholder="Message"></textarea>
+                                                                                </div>
+                                                                                <div class="resume_optional jb_cover">
+                                                                                    <p>resume (optional)</p>
+                                                                                    <div class="width_50">
+                                                                                        <input type="file" id="input-file-now-custom-061" class="dropify" data-height="90" />
+                                                                                        <span class="post_photo">upload resume</span>
+                                                                                    </div>
+                                                                                    <p class="word_file">microsoft word or pdf file only (5mb)</p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="header_btn search_btn applt_pop_btn jb_cover">
+                                                                                <a href="#">apply now</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <div class="job_listing_left_fullwidth job_listing_grid_wrapper jb_cover">
+                                            <div class="row">
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="jp_job_post_side_img">
+                                                        <img src="picture/lt1.png" alt="post_img" />
+                                                        <br />
+                                                        <span>google</span>
+                                                    </div>
+                                                    <div class="jp_job_post_right_cont">
+                                                        <h4><a href="#">Trainee Web Designer, (Fresher)</a></h4>
+                                                        <ul>
+                                                            <li><i class="flaticon-cash"></i>&nbsp; $12K - 15k P.A.</li>
+                                                            <li><i class="flaticon-location-pointer"></i>&nbsp; Los Angeles, Califonia PO, 455001</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="jp_job_post_right_btn_wrapper jb_cover">
+                                                        <ul>
+                                                            <li>
+                                                                <div class="job_adds_right">
+                                                                    <a href="#!"><i class="far fa-heart"></i></a>
+                                                                </div>
+                                                            </li>
+                                                            <li><a href="job_single.html">Part Time</a></li>
+                                                            <li><a href="#" data-toggle="modal" data-target="#myModal011">apply</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="modal fade apply_job_popup" id="myModal011" role="dialog">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                <div class="row">
+                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                                        <div class="apply_job jb_cover">
+                                                                            <h1>apply for this job :</h1>
+                                                                            <div class="search_alert_box jb_cover">
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="name" placeholder="full name" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="Email" placeholder="Enter Your Email" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <textarea class="form-control" name="message" placeholder="Message"></textarea>
+                                                                                </div>
+                                                                                <div class="resume_optional jb_cover">
+                                                                                    <p>resume (optional)</p>
+                                                                                    <div class="width_50">
+                                                                                        <input type="file" id="input-file-now-custom-011" class="dropify" data-height="90" />
+                                                                                        <span class="post_photo">upload resume</span>
+                                                                                    </div>
+                                                                                    <p class="word_file">microsoft word or pdf file only (5mb)</p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="header_btn search_btn applt_pop_btn jb_cover">
+                                                                                <a href="#">apply now</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <div class="job_listing_left_fullwidth job_listing_grid_wrapper jb_cover">
+                                            <div class="row">
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="jp_job_post_side_img">
+                                                        <img src="picture/lt3.png" alt="post_img" />
+                                                        <br />
+                                                        <span>google</span>
+                                                    </div>
+                                                    <div class="jp_job_post_right_cont">
+                                                        <h4><a href="#">Trainee Web Designer, (Fresher)</a></h4>
+                                                        <ul>
+                                                            <li><i class="flaticon-cash"></i>&nbsp; $12K - 15k P.A.</li>
+                                                            <li><i class="flaticon-location-pointer"></i>&nbsp; Los Angeles, Califonia PO, 455001</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="jp_job_post_right_btn_wrapper jb_cover">
+                                                        <ul>
+                                                            <li>
+                                                                <div class="job_adds_right">
+                                                                    <a href="#!"><i class="far fa-heart"></i></a>
+                                                                </div>
+                                                            </li>
+                                                            <li><a href="job_single.html">Part Time</a></li>
+                                                            <li><a href="#" data-toggle="modal" data-target="#myModal08">apply</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="modal fade apply_job_popup" id="myModal08" role="dialog">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                <div class="row">
+                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                                        <div class="apply_job jb_cover">
+                                                                            <h1>apply for this job :</h1>
+                                                                            <div class="search_alert_box jb_cover">
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="name" placeholder="full name" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="Email" placeholder="Enter Your Email" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <textarea class="form-control" name="message" placeholder="Message"></textarea>
+                                                                                </div>
+                                                                                <div class="resume_optional jb_cover">
+                                                                                    <p>resume (optional)</p>
+                                                                                    <div class="width_50">
+                                                                                        <input type="file" id="input-file-now-custom-08" class="dropify" data-height="90" />
+                                                                                        <span class="post_photo">upload resume</span>
+                                                                                    </div>
+                                                                                    <p class="word_file">microsoft word or pdf file only (5mb)</p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="header_btn search_btn applt_pop_btn jb_cover">
+                                                                                <a href="#">apply now</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="list" class="tab-pane fade">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                        <div class="job_listing_left_fullwidth jb_cover">
+                                            <div class="row">
+                                                <div class="col-lg-9 col-md-9 col-sm-12 col-12">
+                                                    <div class="jp_job_post_side_img">
+                                                        <img src="picture/lt1.png" alt="post_img" />
+                                                        <br />
+                                                        <span>google</span>
+                                                    </div>
+                                                    <div class="jp_job_post_right_cont">
+                                                        <h4><a href="#">Trainee Web Designer, (Fresher)</a></h4>
+                                                        <ul>
+                                                            <li><i class="flaticon-cash"></i>&nbsp; $12K - 15k P.A.</li>
+                                                            <li><i class="flaticon-location-pointer"></i>&nbsp; Los Angeles, Califonia PO, 455001</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                                                    <div class="jp_job_post_right_btn_wrapper">
+                                                        <ul>
+                                                            <li>
+                                                                <div class="job_adds_right">
+                                                                    <a href="#!"><i class="far fa-heart"></i></a>
+                                                                </div>
+                                                            </li>
+                                                            <li><a href="job_single.html">Part Time</a></li>
+                                                            <li><a href="#" data-toggle="modal" data-target="#myModal1">apply</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="modal fade apply_job_popup" id="myModal1" role="dialog">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                <div class="row">
+                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                                        <div class="apply_job jb_cover">
+                                                                            <h1>apply for this job :</h1>
+                                                                            <div class="search_alert_box jb_cover">
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="name" placeholder="full name" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="Email" placeholder="Enter Your Email" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <textarea class="form-control" name="message" placeholder="Message"></textarea>
+                                                                                </div>
+                                                                                <div class="resume_optional jb_cover">
+                                                                                    <p>resume (optional)</p>
+                                                                                    <div class="width_50">
+                                                                                        <input type="file" id="input-file-now-custom-1" class="dropify" data-height="90" />
+                                                                                        <span class="post_photo">upload resume</span>
+                                                                                    </div>
+                                                                                    <p class="word_file">microsoft word or pdf file only (5mb)</p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="header_btn search_btn applt_pop_btn jb_cover">
+                                                                                <a href="#">apply now</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                        <div class="job_listing_left_fullwidth jb_cover">
+                                            <div class="row">
+                                                <div class="col-lg-9 col-md-9 col-sm-12 col-12">
+                                                    <div class="jp_job_post_side_img">
+                                                        <img src="picture/lt4.png" alt="post_img" />
+                                                        <br />
+                                                        <span>google</span>
+                                                    </div>
+                                                    <div class="jp_job_post_right_cont">
+                                                        <h4><a href="#">Power Systems Experience Designer </a></h4>
+                                                        <ul>
+                                                            <li><i class="flaticon-cash"></i>&nbsp; $12K - 15k P.A.</li>
+                                                            <li><i class="flaticon-location-pointer"></i>&nbsp; Los Angeles, Califonia PO, 455001</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                                                    <div class="jp_job_post_right_btn_wrapper">
+                                                        <ul>
+                                                            <li>
+                                                                <div class="job_adds_right">
+                                                                    <a href="#!"><i class="far fa-heart"></i></a>
+                                                                </div>
+                                                            </li>
+                                                            <li><a href="job_single.html">Part Time</a></li>
+                                                            <li><a href="#" data-toggle="modal" data-target="#myModal2">apply</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="modal fade apply_job_popup" id="myModal2" role="dialog">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                <div class="row">
+                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                                        <div class="apply_job jb_cover">
+                                                                            <h1>apply for this job :</h1>
+                                                                            <div class="search_alert_box jb_cover">
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="name" placeholder="full name" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="Email" placeholder="Enter Your Email" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <textarea class="form-control" name="message" placeholder="Message"></textarea>
+                                                                                </div>
+                                                                                <div class="resume_optional jb_cover">
+                                                                                    <p>resume (optional)</p>
+                                                                                    <div class="width_50">
+                                                                                        <input type="file" id="input-file-now-custom-2" class="dropify" data-height="90" />
+                                                                                        <span class="post_photo">upload resume</span>
+                                                                                    </div>
+                                                                                    <p class="word_file">microsoft word or pdf file only (5mb)</p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="header_btn search_btn applt_pop_btn jb_cover">
+                                                                                <a href="#">apply now</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                        <div class="job_listing_left_fullwidth jb_cover">
+                                            <div class="row">
+                                                <div class="col-lg-9 col-md-9 col-sm-12 col-12">
+                                                    <div class="jp_job_post_side_img">
+                                                        <img src="picture/lt2.png" alt="post_img" />
+                                                        <br />
+                                                        <span>google</span>
+                                                    </div>
+                                                    <div class="jp_job_post_right_cont">
+                                                        <h4><a href="#">Trainee Web Designer, (Fresher)</a></h4>
+                                                        <ul>
+                                                            <li><i class="flaticon-cash"></i>&nbsp; $12K - 15k P.A.</li>
+                                                            <li><i class="flaticon-location-pointer"></i>&nbsp; Los Angeles, Califonia PO, 455001</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                                                    <div class="jp_job_post_right_btn_wrapper">
+                                                        <ul>
+                                                            <li>
+                                                                <div class="job_adds_right">
+                                                                    <a href="#!"><i class="far fa-heart"></i></a>
+                                                                </div>
+                                                            </li>
+                                                            <li><a href="job_single.html">Part Time</a></li>
+                                                            <li><a href="#" data-toggle="modal" data-target="#myModal3">apply</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="modal fade apply_job_popup" id="myModal3" role="dialog">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                <div class="row">
+                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                                        <div class="apply_job jb_cover">
+                                                                            <h1>apply for this job :</h1>
+                                                                            <div class="search_alert_box jb_cover">
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="name" placeholder="full name" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="Email" placeholder="Enter Your Email" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <textarea class="form-control" name="message" placeholder="Message"></textarea>
+                                                                                </div>
+                                                                                <div class="resume_optional jb_cover">
+                                                                                    <p>resume (optional)</p>
+                                                                                    <div class="width_50">
+                                                                                        <input type="file" id="input-file-now-custom-3" class="dropify" data-height="90" />
+                                                                                        <span class="post_photo">upload resume</span>
+                                                                                    </div>
+                                                                                    <p class="word_file">microsoft word or pdf file only (5mb)</p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="header_btn search_btn applt_pop_btn jb_cover">
+                                                                                <a href="#">apply now</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                        <div class="job_listing_left_fullwidth jb_cover">
+                                            <div class="row">
+                                                <div class="col-lg-9 col-md-9 col-sm-12 col-12">
+                                                    <div class="jp_job_post_side_img">
+                                                        <img src="picture/lt5.png" alt="post_img" />
+                                                        <br />
+                                                        <span>google</span>
+                                                    </div>
+                                                    <div class="jp_job_post_right_cont">
+                                                        <h4><a href="#">Power Systems Experience Designer </a></h4>
+                                                        <ul>
+                                                            <li><i class="flaticon-cash"></i>&nbsp; $12K - 15k P.A.</li>
+                                                            <li><i class="flaticon-location-pointer"></i>&nbsp; Los Angeles, Califonia PO, 455001</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                                                    <div class="jp_job_post_right_btn_wrapper">
+                                                        <ul>
+                                                            <li>
+                                                                <div class="job_adds_right">
+                                                                    <a href="#!"><i class="far fa-heart"></i></a>
+                                                                </div>
+                                                            </li>
+                                                            <li><a href="job_single.html">Part Time</a></li>
+                                                            <li><a href="#" data-toggle="modal" data-target="#myModal8">apply</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="modal fade apply_job_popup" id="myModal8" role="dialog">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                <div class="row">
+                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                                        <div class="apply_job jb_cover">
+                                                                            <h1>apply for this job :</h1>
+                                                                            <div class="search_alert_box jb_cover">
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="name" placeholder="full name" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="Email" placeholder="Enter Your Email" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <textarea class="form-control" name="message" placeholder="Message"></textarea>
+                                                                                </div>
+                                                                                <div class="resume_optional jb_cover">
+                                                                                    <p>resume (optional)</p>
+                                                                                    <div class="width_50">
+                                                                                        <input type="file" id="input-file-now-custom-8" class="dropify" data-height="90" />
+                                                                                        <span class="post_photo">upload resume</span>
+                                                                                    </div>
+                                                                                    <p class="word_file">microsoft word or pdf file only (5mb)</p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="header_btn search_btn applt_pop_btn jb_cover">
+                                                                                <a href="#">apply now</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                        <div class="job_listing_left_fullwidth jb_cover">
+                                            <div class="row">
+                                                <div class="col-lg-9 col-md-9 col-sm-12 col-12">
+                                                    <div class="jp_job_post_side_img">
+                                                        <img src="picture/lt1.png" alt="post_img" />
+                                                        <br />
+                                                        <span>google</span>
+                                                    </div>
+                                                    <div class="jp_job_post_right_cont">
+                                                        <h4><a href="#">Power Systems Experience Designer </a></h4>
+                                                        <ul>
+                                                            <li><i class="flaticon-cash"></i>&nbsp; $12K - 15k P.A.</li>
+                                                            <li><i class="flaticon-location-pointer"></i>&nbsp; Los Angeles, Califonia PO, 455001</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                                                    <div class="jp_job_post_right_btn_wrapper">
+                                                        <ul>
+                                                            <li>
+                                                                <div class="job_adds_right">
+                                                                    <a href="#!"><i class="far fa-heart"></i></a>
+                                                                </div>
+                                                            </li>
+                                                            <li><a href="job_single.html">Part Time</a></li>
+                                                            <li><a href="#" data-toggle="modal" data-target="#myModal4">apply</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="modal fade apply_job_popup" id="myModal4" role="dialog">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                <div class="row">
+                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                                        <div class="apply_job jb_cover">
+                                                                            <h1>apply for this job :</h1>
+                                                                            <div class="search_alert_box jb_cover">
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="name" placeholder="full name" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="Email" placeholder="Enter Your Email" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <textarea class="form-control" name="message" placeholder="Message"></textarea>
+                                                                                </div>
+                                                                                <div class="resume_optional jb_cover">
+                                                                                    <p>resume (optional)</p>
+                                                                                    <div class="width_50">
+                                                                                        <input type="file" id="input-file-now-custom-4" class="dropify" data-height="90" />
+                                                                                        <span class="post_photo">upload resume</span>
+                                                                                    </div>
+                                                                                    <p class="word_file">microsoft word or pdf file only (5mb)</p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="header_btn search_btn applt_pop_btn jb_cover">
+                                                                                <a href="#">apply now</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                        <div class="job_listing_left_fullwidth jb_cover">
+                                            <div class="row">
+                                                <div class="col-lg-9 col-md-9 col-sm-12 col-12">
+                                                    <div class="jp_job_post_side_img">
+                                                        <img src="picture/lt2.png" alt="post_img" />
+                                                        <br />
+                                                        <span>google</span>
+                                                    </div>
+                                                    <div class="jp_job_post_right_cont">
+                                                        <h4><a href="#">Trainee Web Designer, (Fresher)</a></h4>
+                                                        <ul>
+                                                            <li><i class="flaticon-cash"></i>&nbsp; $12K - 15k P.A.</li>
+                                                            <li><i class="flaticon-location-pointer"></i>&nbsp; Los Angeles, Califonia PO, 455001</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                                                    <div class="jp_job_post_right_btn_wrapper">
+                                                        <ul>
+                                                            <li>
+                                                                <div class="job_adds_right">
+                                                                    <a href="#!"><i class="far fa-heart"></i></a>
+                                                                </div>
+                                                            </li>
+                                                            <li><a href="job_single.html">Part Time</a></li>
+                                                            <li><a href="#" data-toggle="modal" data-target="#myModal5">apply</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="modal fade apply_job_popup" id="myModal5" role="dialog">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                <div class="row">
+                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                                        <div class="apply_job jb_cover">
+                                                                            <h1>apply for this job :</h1>
+                                                                            <div class="search_alert_box jb_cover">
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="name" placeholder="full name" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="Email" placeholder="Enter Your Email" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <textarea class="form-control" name="message" placeholder="Message"></textarea>
+                                                                                </div>
+                                                                                <div class="resume_optional jb_cover">
+                                                                                    <p>resume (optional)</p>
+                                                                                    <div class="width_50">
+                                                                                        <input type="file" id="input-file-now-custom-5" class="dropify" data-height="90" />
+                                                                                        <span class="post_photo">upload resume</span>
+                                                                                    </div>
+                                                                                    <p class="word_file">microsoft word or pdf file only (5mb)</p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="header_btn search_btn applt_pop_btn jb_cover">
+                                                                                <a href="#">apply now</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                        <div class="job_listing_left_fullwidth jb_cover">
+                                            <div class="row">
+                                                <div class="col-lg-9 col-md-9 col-sm-12 col-12">
+                                                    <div class="jp_job_post_side_img">
+                                                        <img src="picture/lt5.png" alt="post_img" />
+                                                        <br />
+                                                        <span>google</span>
+                                                    </div>
+                                                    <div class="jp_job_post_right_cont">
+                                                        <h4><a href="#">Trainee Web Designer, (Fresher)</a></h4>
+                                                        <ul>
+                                                            <li><i class="flaticon-cash"></i>&nbsp; $12K - 15k P.A.</li>
+                                                            <li><i class="flaticon-location-pointer"></i>&nbsp; Los Angeles, Califonia PO, 455001</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                                                    <div class="jp_job_post_right_btn_wrapper">
+                                                        <ul>
+                                                            <li>
+                                                                <div class="job_adds_right">
+                                                                    <a href="#!"><i class="far fa-heart"></i></a>
+                                                                </div>
+                                                            </li>
+                                                            <li><a href="job_single.html">Part Time</a></li>
+                                                            <li><a href="#" data-toggle="modal" data-target="#myModal6">apply</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="modal fade apply_job_popup" id="myModal6" role="dialog">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                <div class="row">
+                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                                        <div class="apply_job jb_cover">
+                                                                            <h1>apply for this job :</h1>
+                                                                            <div class="search_alert_box jb_cover">
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="name" placeholder="full name" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="Email" placeholder="Enter Your Email" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <textarea class="form-control" name="message" placeholder="Message"></textarea>
+                                                                                </div>
+                                                                                <div class="resume_optional jb_cover">
+                                                                                    <p>resume (optional)</p>
+                                                                                    <div class="width_50">
+                                                                                        <input type="file" id="input-file-now-custom-6" class="dropify" data-height="90" />
+                                                                                        <span class="post_photo">upload resume</span>
+                                                                                    </div>
+                                                                                    <p class="word_file">microsoft word or pdf file only (5mb)</p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="header_btn search_btn applt_pop_btn jb_cover">
+                                                                                <a href="#">apply now</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                        <div class="job_listing_left_fullwidth jb_cover">
+                                            <div class="row">
+                                                <div class="col-lg-9 col-md-9 col-sm-12 col-12">
+                                                    <div class="jp_job_post_side_img">
+                                                        <img src="picture/lt4.png" alt="post_img" />
+                                                        <br />
+                                                        <span>google</span>
+                                                    </div>
+                                                    <div class="jp_job_post_right_cont">
+                                                        <h4><a href="#">Trainee Web Designer, (Fresher)</a></h4>
+                                                        <ul>
+                                                            <li><i class="flaticon-cash"></i>&nbsp; $12K - 15k P.A.</li>
+                                                            <li><i class="flaticon-location-pointer"></i>&nbsp; Los Angeles, Califonia PO, 455001</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                                                    <div class="jp_job_post_right_btn_wrapper">
+                                                        <ul>
+                                                            <li>
+                                                                <div class="job_adds_right">
+                                                                    <a href="#!"><i class="far fa-heart"></i></a>
+                                                                </div>
+                                                            </li>
+                                                            <li><a href="job_single.html">Part Time</a></li>
+                                                            <li><a href="#" data-toggle="modal" data-target="#myModal7">apply</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="modal fade apply_job_popup" id="myModal7" role="dialog">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                <div class="row">
+                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                                        <div class="apply_job jb_cover">
+                                                                            <h1>apply for this job :</h1>
+                                                                            <div class="search_alert_box jb_cover">
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="name" placeholder="full name" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <input type="text" name="Email" placeholder="Enter Your Email" />
+                                                                                </div>
+                                                                                <div class="apply_job_form">
+                                                                                    <textarea class="form-control" name="message" placeholder="Message"></textarea>
+                                                                                </div>
+                                                                                <div class="resume_optional jb_cover">
+                                                                                    <p>resume (optional)</p>
+                                                                                    <div class="width_50">
+                                                                                        <input type="file" id="input-file-now-custom-7" class="dropify" data-height="90" />
+                                                                                        <span class="post_photo">upload resume</span>
+                                                                                    </div>
+                                                                                    <p class="word_file">microsoft word or pdf file only (5mb)</p>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="header_btn search_btn applt_pop_btn jb_cover">
+                                                                                <a href="#">apply now</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog_pagination_section jb_cover">
+                                <ul>
+                                    <li><a href="#" class="prev"><i class="flaticon-left-arrow"></i></a></li>
+                                    <li><a href="#">1</a></li>
+                                    <li class="third_pagger"><a href="#">2</a></li>
+                                    <li class="d-block d-sm-block d-md-block d-lg-block"><a href="#">3</a></li>
+                                    <li class="d-none d-sm-block d-md-block d-lg-block"><a href="#">...</a></li>
+                                    <li class="d-none d-sm-block d-md-block d-lg-block"><a href="#">6</a></li>
+                                    <li><a href="#" class="next"><i class="flaticon-right-arrow"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12 col-sm-12 col-12 d-block d-sm-block d-md-block d-lg-none d-xl-none">
+                    <div class="job_filter_category_sidebar jb_cover">
+                        <div class="job_filter_sidebar_heading jb_cover">
+                            <h1>jobs by category</h1>
+                        </div>
+                        <div class="category_jobbox jb_cover">
+                            <p class="job_field"><input type="checkbox" id="c1111" name="cb" /><label for="c1111">graphic designer<span>(155)</span></label></p>
+                            <p class="job_field"><input type="checkbox" id="c22" name="cb" /><label for="c22"> Engineering Jobs <span>(514)</span></label></p>
+                            <p class="job_field"><input type="checkbox" id="c33" name="cb" /><label for="c33">Mainframe Jobs <span>(554)</span></label></p>
+                            <p class="job_field"><input type="checkbox" id="c44" name="cb" /><label for="c44">Legal Jobs <span>(457)</span></label></p>
+                            <p class="job_field"><input type="checkbox" id="c55" name="cb" /><label for="c55">IT Jobs <span>(254)</span></label></p>
+                            <p class="job_field"><input type="checkbox" id="c66" name="cb" /><label for="c66">PSU Jobs <span>(1054)</span></label></p>
+                            <p class="job_field"><input type="checkbox" id="c77" name="cb" /><label for="c77">government Jobs <span>(1284)</span></label></p>
+                            <div class="seeMore">
+                                <a href="#">view all categories</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="job_filter_category_sidebar jb_cover">
+                        <div class="job_filter_sidebar_heading jb_cover">
+                            <h1>jobs by location</h1>
+                        </div>
+                        <div class="category_jobbox jb_cover">
+                            <p class="job_field"><input type="checkbox" id="c011" name="cb" /><label for="c011">Jobs in delhi <span>(24)</span></label></p>
+                            <p class="job_field"><input type="checkbox" id="c021" name="cb" /><label for="c021"> Jobs in mumbai <span>(1242)</span></label></p>
+                            <p class="job_field"><input type="checkbox" id="c031" name="cb" /><label for="c031">Jobs in chennai <span>(458)</span></label></p>
+                            <p class="job_field"><input type="checkbox" id="c041" name="cb" /><label for="c041">Jobs in indore <span>(1047)</span></label></p>
+                            <p class="job_field"><input type="checkbox" id="c051" name="cb" /><label for="c051">Job in bhopal <span>(124)</span></label></p>
+                            <p class="job_field"><input type="checkbox" id="c061" name="cb" /><label for="c061">Job in pune <span>(124)</span></label></p>
+                            <p class="job_field"><input type="checkbox" id="c071" name="cb" /><label for="c071">Job in banglore <span>(124)</span></label></p>
+                            <div class="seeMore">
+                                <a href="#">view all categories</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="job_filter_category_sidebar jb_cover">
+                        <div class="job_filter_sidebar_heading jb_cover">
+                            <h1>your skill's</h1>
+                        </div>
+                        <div class="category_jobbox jb_cover">
+                            <p class="job_field"><input type="checkbox" id="c111" name="cb" /><label for="c111">javascript <span>(124)</span></label></p>
+                            <p class="job_field"><input type="checkbox" id="c121" name="cb" /><label for="c121"> HTML5 <span>(42)</span></label></p>
+                            <p class="job_field"><input type="checkbox" id="c131" name="cb" /><label for="c131">CSS <span>(158)</span></label></p>
+                            <p class="job_field"><input type="checkbox" id="c141" name="cb" /><label for="c141">marketing <span>(47)</span></label></p>
+                            <p class="job_field"><input type="checkbox" id="c151" name="cb" /><label for="c151">web design <span>(124)</span></label></p>
+                            <p class="job_field"><input type="checkbox" id="c161" name="cb" /><label for="c161">PHP<span>(124)</span></label></p>
+                            <p class="job_field"><input type="checkbox" id="c171" name="cb" /><label for="c171">social media<span>(124)</span></label></p>
+                            <div class="seeMore">
+                                <a href="#">view all categories</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="job_filter_category_sidebar jb_cover">
+                        <div class="job_filter_sidebar_heading jb_cover">
+                            <h1>salary</h1>
+                        </div>
+                        <div class="category_jobbox jb_cover">
+                            <div class="widget price-range">
+                                <ul>
+                                    <li class="range">
+                                        <div id="responsive_range_price" class="range-box"></div><input type="text" id="responsive_price" class="price-box" readonly="" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jp_add_resume_wrapper jb_cover">
+                        <div class="jp_add_resume_img_overlay"></div>
+                        <div class="jp_add_resume_cont">
+                            <img src="picture/logo2.png" alt="logo" />
+                            <h4>Get Best Matched Jobs On your Email. Add Resume NOW!</h4>
+                            <div class="width_50">
+                                <input type="file" id="input-file-now-custom-203" class="dropify" data-height="90" />
+                                <span class="post_photo">add resume</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--job listing filter  wrapper end-->
+    <!-- news app wrapper start-->
+    <div class="news_letter_wrapper jb_cover">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="job_newsletter_wrapper jb_cover">
+                        <div class="jb_newslwtteter_left">
+                            <h2>Looking For A Job</h2>
+                            <p>Your next level Product developemnt company assetsYour next level Product</p>
+                        </div>
+                        <div class="jb_newslwtteter_button">
+                            <div class="header_btn search_btn news_btn jb_cover">
+                                <a href="#">submit</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- news app wrapper end-->
+    <!-- footer Wrapper Start -->
+    <div class="footer jb_cover">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="footerNav jb_cover">
+                        <a href="#"><img src="picture/logo2.png" alt="img" /></a>
+                        <ul class="footer_first_contact">
+                            <li><i class="flaticon-location-pointer"></i><p>123 City Avenue, Floor 10, <br />malbourne, Australia.</p></li>
+                            <li><i class="flaticon-telephone"></i><p>1 -234 -456 -7890 <br />1 -234 -456 -7890</p></li>
+                            <li><i class="flaticon-envelope"></i><a href="#">info@Jbdesks.com</a><br /><a href="#">support@Jbdesks.com</a></li>
+                        </ul>
+                        <ul class="icon_list_news jb_cover">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="footerNav jb_cover footer_border_displ">
+                        <h5>features</h5>
+                        <ul class="nav-widget">
+                            <li><a href="#"><i class="fa fa-square"></i>Job Management &amp; Billing</a></li>
+                            <li><a href="#"><i class="fa fa-square"></i>Time &amp; Materials Tracking</a></li>
+                            <li><a href="#"><i class="fa fa-square"></i>Standards Compliance </a></li>
+                            <li><a href="#"><i class="fa fa-square"></i>Real Time GPS Tracking</a></li>
+                            <li><a href="#"><i class="fa fa-square"></i>Client Portal</a></li>
+                            <li><a href="#"><i class="fa fa-square"></i>Powerful Workflow</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="footerNav jb_cover footer_border_displ">
+                        <h5>browse</h5>
+                        <ul class="nav-widget">
+                            <li><a href="#"><i class="fa fa-square"></i>Freelancers by Category</a></li>
+                            <li><a href="#"><i class="fa fa-square"></i>Freelancers in USA </a></li>
+                            <li><a href="#"><i class="fa fa-square"></i>Freelancers in UK</a></li>
+                            <li><a href="#"><i class="fa fa-square"></i>Freelancers in Canada</a></li>
+                            <li><a href="#"><i class="fa fa-square"></i>Freelancers in india</a></li>
+                            <li><a href="#"><i class="fa fa-square"></i>find jobs</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="footerNav jb_cover footer_border_displ">
+                        <h5>app &amp; integration</h5>
+                        <ul class="nav-widget">
+                            <li><a href="#"><img src="picture/ft1.png" alt="img" />Xero</a></li>
+                            <li><a href="#"><img src="picture/ft2.png" alt="img" />Reckon</a></li>
+                            <li><a href="#"><img src="picture/ft3.png" alt="img" />Flexidocs</a></li>
+                            <li><a href="#"><img src="picture/ft4.png" alt="img" />Microsoft Exchange</a></li>
+                            <li><a href="#"><img src="picture/ft5.png" alt="img" />Mailchimp</a></li>
+                            <li><a href="#"><img src="picture/ft6.png" alt="img" />MYOB</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copyright_left">
+                    <i class="fa fa-copyright"></i>2019
+                    <a href="#"> JB desks. </a>All Rights
+                    <a href="">reserved</a>.
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <!--/.row-->
+        </div>
+        <!--/.container-->
+        <div class="waveWrapper waveAnimation">
+            <div class="waveWrapperInner bgTop gradient-color">
+                <div class="wave waveTop"></div>
+            </div>
+            <div class="waveWrapperInner bgMiddle">
+                <div class="wave waveMiddle"></div>
+            </div>
+            <div class="waveWrapperInner bgBottom">
+                <div class="wave waveBottom"></div>
+            </div>
+        </div>
+    </div>
+    <!-- footer Wrapper End -->
+    <!-- chat box Wrapper start -->
+    <div id="chat-circle" class="btn btn-raised">
+        <i class="fas fa-comment-alt"></i>
+    </div>
+    <div class="chat-box">
+        <div class="chat-box-header">
+            ChatBot
+            <span class="chat-box-toggle"><i class="fas fa-times"></i></span>
+        </div>
+        <div class="chat-box-body">
+            <div class="chat-box-overlay"></div>
+            <div class="chat-logs"></div>
+            <!--chat-log -->
+        </div>
+        <div class="chat-input">
+            <form>
+                <input type="text" id="chat-input" placeholder="Send a message..." />
+                <button type="submit" class="chat-submit" id="chat-submit"><i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </div>
+    <!-- chat box Wrapper end -->
+    <!--custom js files-->
+    <script src="{% static 'app/scripts/jquery-3.3.1.min.js' %}"></script>
+    <script src="{% static 'app/scripts/bootstrap.min.js' %}"></script>
+    <script src="{% static 'app/scripts/modernizr.js' %}"></script>
+    <script src="{% static 'app/scripts/jquery.menu-aim.js' %}"></script>
+    <script src="{% static 'app/scripts/plugin.js' %}"></script>
+    <script src="{% static 'app/scripts/owl.carousel.js' %}"></script>
+    <script src="{% static 'app/scripts/jquery-ui.js' %}"></script>
+    <script src="{% static 'app/scripts/jquery.countto.js' %}"></script>
+    <script src="{% static 'app/scripts/jquery.magnific-popup.js' %}"></script>
+    <script src="{% static 'app/scripts/dropify.min.js' %}"></script>
+    <script src="{% static 'app/scripts/jquery.inview.min.js' %}"></script>
+    <script src="{% static 'app/scripts/jquery.nice-select.min.js' %}"></script>
+    <script src="{% static 'app/scripts/imagesloaded.pkgd.min.js' %}"></script>
+    <script src="{% static 'app/scripts/isotope.pkgd.min.js' %}"></script>
+    <script src="{% static 'app/scripts/custom.js' %}"></script>
+    <!-- custom js-->
+    <script></script>
+</body>
+</html>
