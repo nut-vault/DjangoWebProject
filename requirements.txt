@@ -1,2 +1,1 @@
-django~=2.2
-使用VisualStduio编码，无额外的Python模块包，使用的都是django自带的模块。
+django==2.2
